@@ -3,7 +3,8 @@
 // ============================================
 
 import { siloHubs, governanceLinks, patientTools, isActivePath } from '../data/navigation.js';
-import logoUrl from '../assets/breasts-implants-logo.webp';
+import logo263Url from '../assets/breasts-implants-logo-263.webp';
+import logo526Url from '../assets/breasts-implants-logo-526.webp';
 
 /**
  * Render the trust banner
@@ -21,7 +22,7 @@ export function siteHeader() {
   return `<header class="site-header" id="site-header">
   <div class="header-top">
     <a href="/" class="logo header-logo" aria-label="Breasts Implants Home">
-      <img src="${logoUrl}" alt="Breasts Implants Logo" class="logo-img" />
+      <img src="${logo263Url}" srcset="${logo263Url} 263w, ${logo526Url} 526w" sizes="190px" width="263" height="105" alt="Breasts Implants Logo" class="logo-img" />
     </a>
     <nav class="nav-main" id="nav-main">
       ${siloHubs.map(hub => `
@@ -96,7 +97,7 @@ export function siteFooter() {
     <div class="footer-grid">
       <div class="footer-brand">
         <div class="logo footer-logo">
-          <img src="${logoUrl}" alt="Breasts Implants Logo" class="logo-img" />
+          <img src="${logo263Url}" srcset="${logo263Url} 263w, ${logo526Url} 526w" sizes="190px" width="263" height="105" alt="Breasts Implants Logo" class="logo-img" />
         </div>
         <p>Independent, medically reviewed breast implant education. Not affiliated with any device manufacturer, surgeon, or clinic.</p>
       </div>

@@ -5,15 +5,6 @@
 import './style.css';
 import { route, initRouter } from './router.js';
 import { homePage } from './pages/home.js';
-import { hubPage } from './pages/hub.js';
-import { articlePage } from './pages/article.js';
-import { aboutPage, medicalDisclaimerPage, medicalReviewPolicyPage, privacyPolicyPage, termsOfUsePage, editorialPolicyPage } from './pages/governance.js';
-import { questionsPage } from './pages/questions.js';
-import { ccSizeChartPage } from './pages/cc-size-chart.js';
-import { fdaChecklistPage } from './pages/fda-checklist.js';
-import { patientGuidesPage } from './pages/patient-guides.js';
-import { medicalReviewersPage } from './pages/medical-reviewers.js';
-import { contactPage } from './pages/contact.js';
 
 // ============================================
 // Dark Mode: Apply saved/system preference BEFORE render
@@ -25,10 +16,20 @@ import { contactPage } from './pages/contact.js';
   }
 })();
 
-const lazyArticle = (loader, exportName) => async () => {
+const lazyPage = (loader, exportName, ...args) => async () => {
   const module = await loader();
+  return module[exportName](...args);
+};
+
+const lazyArticle = (loader, exportName) => async () => {
+  const [{ articlePage }, module] = await Promise.all([
+    import('./pages/article.js'),
+    loader(),
+  ]);
   return articlePage(module[exportName]);
 };
+
+const hub = (id) => lazyPage(() => import('./pages/hub.js'), 'hubPage', id);
 
 // ============================================
 // Register Routes
@@ -38,14 +39,14 @@ const lazyArticle = (loader, exportName) => async () => {
 route('/', homePage);
 
 // Silo Hub Pages
-route('/breast-implant-types/', () => hubPage('implant-types'));
-route('/shapes-and-sizes/', () => hubPage('shapes-sizes'));
-route('/breast-implant-procedures/', () => hubPage('procedure'));
-route('/costs-financing/', () => hubPage('costs-financing'));
-route('/breast-implants-risks-and-complications/', () => hubPage('risks-complications'));
-route('/breast-implant-brands/', () => hubPage('brands'));
-route('/breast-implants-alternatives/', () => hubPage('alternatives'));
-route('/research-and-data/', () => hubPage('research'));
+route('/breast-implant-types/', hub('implant-types'));
+route('/shapes-and-sizes/', hub('shapes-sizes'));
+route('/breast-implant-procedures/', hub('procedure'));
+route('/costs-financing/', hub('costs-financing'));
+route('/breast-implants-risks-and-complications/', hub('risks-complications'));
+route('/breast-implant-brands/', hub('brands'));
+route('/breast-implants-alternatives/', hub('alternatives'));
+route('/research-and-data/', hub('research'));
 
 // Article Pages — Implant Types Silo
 route('/saline-breast-implants/', lazyArticle(() => import('./data/articles/saline.js'), 'salineArticle'));
@@ -58,14 +59,14 @@ route('/structured-saline-implants/', lazyArticle(() => import('./data/articles/
 route('/breast-implants-shapes/', lazyArticle(() => import('./data/articles/shapes-profiles.js'), 'shapesProfilesArticle'));
 route('/round-vs-teardrop-implants/', lazyArticle(() => import('./data/articles/round-vs-teardrop.js'), 'roundVsTeardropArticle'));
 route('/breast-implant-profiles/', lazyArticle(() => import('./data/articles/implant-profiles.js'), 'implantProfilesArticle'));
-route('/breast-implants-cc-size-chart/', ccSizeChartPage);
+route('/breast-implants-cc-size-chart/', lazyPage(() => import('./pages/cc-size-chart.js'), 'ccSizeChartPage'));
 
 // Article Pages — Procedure Silo
 route('/breast-augmentation-surgery/', lazyArticle(() => import('./data/articles/breast-augmentation-surgery.js'), 'breastAugmentationSurgeryArticle'));
 route('/breast-implant-placement/', lazyArticle(() => import('./data/articles/implant-placement.js'), 'implantPlacementArticle'));
 route('/breast-implant-incision-types/', lazyArticle(() => import('./data/articles/incision-types.js'), 'incisionTypesArticle'));
 route('/breast-augmentation-recovery-timeline/', lazyArticle(() => import('./data/articles/recovery-timeline.js'), 'recoveryTimelineArticle'));
-route('/questions-for-surgeon/', questionsPage);
+route('/questions-for-surgeon/', lazyPage(() => import('./pages/questions.js'), 'questionsPage'));
 route('/choosing-surgeon/', lazyArticle(() => import('./data/articles/choosing-surgeon.js'), 'choosingSurgeonArticle'));
 route('/breast-lift/', lazyArticle(() => import('./data/articles/breast-lift.js'), 'breastLiftArticle'));
 route('/breast-lift-with-augmentation/', lazyArticle(() => import('./data/articles/breast-lift-augmentation.js'), 'breastLiftAugmentationArticle'));
@@ -102,18 +103,18 @@ route('/breast-implant-long-term-studies/', lazyArticle(() => import('./data/art
 route('/emerging-research-in-breast-implant/', lazyArticle(() => import('./data/articles/emerging-research.js'), 'emergingResearchArticle'));
 
 // Patient Tools
-route('/patient-guides/', patientGuidesPage);
-route('/fda-checklist/', fdaChecklistPage);
+route('/patient-guides/', lazyPage(() => import('./pages/patient-guides.js'), 'patientGuidesPage'));
+route('/fda-checklist/', lazyPage(() => import('./pages/fda-checklist.js'), 'fdaChecklistPage'));
 
 // Governance / Trust Pages
-route('/about/', aboutPage);
-route('/medical-disclaimer/', medicalDisclaimerPage);
-route('/medical-review-policy/', medicalReviewPolicyPage);
-route('/privacy/', privacyPolicyPage);
-route('/terms/', termsOfUsePage);
-route('/editorial-policy/', editorialPolicyPage);
-route('/medical-reviewers/', medicalReviewersPage);
-route('/contact/', contactPage);
+route('/about/', lazyPage(() => import('./pages/governance.js'), 'aboutPage'));
+route('/medical-disclaimer/', lazyPage(() => import('./pages/governance.js'), 'medicalDisclaimerPage'));
+route('/medical-review-policy/', lazyPage(() => import('./pages/governance.js'), 'medicalReviewPolicyPage'));
+route('/privacy/', lazyPage(() => import('./pages/governance.js'), 'privacyPolicyPage'));
+route('/terms/', lazyPage(() => import('./pages/governance.js'), 'termsOfUsePage'));
+route('/editorial-policy/', lazyPage(() => import('./pages/governance.js'), 'editorialPolicyPage'));
+route('/medical-reviewers/', lazyPage(() => import('./pages/medical-reviewers.js'), 'medicalReviewersPage'));
+route('/contact/', lazyPage(() => import('./pages/contact.js'), 'contactPage'));
 
 // 404 fallback
 route('*', () => ({

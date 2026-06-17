@@ -4,7 +4,8 @@
 
 import { pageLayout, initCommon } from '../components/layout.js';
 import { faqPageSchema, medicalWebPageSchema, organizationSchema, webSiteSchema } from '../data/schema.js';
-import heroImg from '../assets/hero-medical.webp';
+import heroImg from '../assets/hero-medical-480.webp';
+import hero560Img from '../assets/hero-medical-560.webp';
 
 export function homePage() {
   const html = pageLayout(`
@@ -31,7 +32,7 @@ export function homePage() {
       </div>
     </div>
     <div class="hero-image">
-      <img src="${heroImg}" alt="Breast implant patient education" width="480" height="480" loading="eager" fetchpriority="high" decoding="async" />
+      <img src="${heroImg}" srcset="${heroImg} 480w, ${hero560Img} 560w" sizes="(max-width: 768px) 320px, 480px" alt="Breast implant patient education" width="480" height="480" loading="eager" fetchpriority="high" decoding="async" />
     </div>
   </div>
 </section>
