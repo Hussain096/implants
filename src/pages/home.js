@@ -18,7 +18,7 @@ export function homePage() {
       </div>
       <h1>Your Complete Guide to Breast Implants</h1>
       <p class="hero-desc">
-        Evidence-based information to help you make informed decisions about breast augmentation (often called boob augmentation or a boob operation). 
+        Evidence based information to help you make informed decisions about perfect breast augmentation (often called boob augmentation or a boob operation). 
         Explore various types of breast enhancement, understand the options for safe breast enlargement, know the risks, and prepare for every step of your chest augmentation journey.
       </p>
       <div class="hero-actions">
