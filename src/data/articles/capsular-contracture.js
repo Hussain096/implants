@@ -4,8 +4,8 @@
 
 export const capsularContractureArticle = {
   title: 'Capsular Contracture: Causes, Grades, Treatment & Prevention',
-  metaTitle: 'Capsular Contracture — Causes, Baker Grades, Treatment | Breasts-Implants.com',
-  metaDescription: 'Complete guide to capsular contracture: the most common breast implant complication. Learn Baker grades, risk factors, prevention strategies, and treatment options.',
+  metaTitle: "Capsular Contracture: Grades, Causes, Treatment, Prevention",
+  metaDescription: "Learn capsular contracture causes, Baker grades, symptoms, prevention strategies, treatment options, and when revision surgery is needed. Includes key tips.",
   hubId: 'risks-complications',
   hubLabel: 'Risks & Safety',
   hubHref: '/breast-implants-risks-and-complications/',

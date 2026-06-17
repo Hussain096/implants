@@ -4,8 +4,8 @@
 
 export const implantPlacementArticle = {
   title: 'Breast Implant Placement',
-  metaTitle: 'Breast Implant Placement — Under vs. Over the Muscle | Breasts-Implants.com',
-  metaDescription: 'Submuscular, subglandular, dual-plane, and subfascial implant placement explained. Pros, cons, candidacy, and how placement affects results and complications.',
+  metaTitle: "Breast Implant Placement: Under vs Over the Muscle",
+  metaDescription: "Compare breast implant placement options, including under the muscle, over the muscle, dual plane, recovery differences, and candidacy. Includes key tips.",
   hubId: 'procedure',
   hubLabel: 'Procedure',
   hubHref: '/breast-implant-procedures/',

@@ -4,8 +4,8 @@
 
 export const biaAlclArticle = {
   title: 'BIA-ALCL: Breast Implant-Associated Lymphoma Explained',
-  metaTitle: 'BIA-ALCL — Breast Implant Lymphoma Risk, Symptoms & Treatment | Breasts-Implants.com',
-  metaDescription: 'Evidence-based guide to BIA-ALCL: a rare lymphoma linked to textured breast implants. Risk factors, symptoms, diagnosis, treatment, and FDA actions explained.',
+  metaTitle: "BIA-ALCL and Breast Implants: Risk, Symptoms, Treatment",
+  metaDescription: "Understand BIA-ALCL risk, symptoms, diagnosis, treatment, textured implant links, FDA actions, and questions to ask your surgeon. Includes key tips.",
   hubId: 'research',
   hubLabel: 'Research & Safety Data',
   hubHref: '/research-and-data/',

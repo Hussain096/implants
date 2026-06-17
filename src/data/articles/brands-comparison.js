@@ -4,8 +4,8 @@
 
 export const brandsComparisonArticle = {
   title: 'Breast Implant Brands: Allergan vs. Mentor vs. Sientra vs. Motiva',
-  metaTitle: 'Breast Implant Brands Comparison — Allergan, Mentor, Sientra, Motiva | Breasts-Implants.com',
-  metaDescription: 'Compare all FDA-approved breast implant manufacturers: Allergan, Mentor, Sientra, and Motiva. Warranties, product lines, safety records, and how to choose.',
+  metaTitle: "Breast Implant Brands Compared: Allergan, Mentor, Motiva",
+  metaDescription: "Compare Allergan, Mentor, Sientra, and Motiva breast implants by product lines, warranties, safety records, FDA status, and fit. Includes key tips.",
   hubId: 'brands',
   hubLabel: 'Brands & Manufacturers',
   hubHref: '/breast-implant-brands/',

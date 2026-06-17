@@ -4,8 +4,8 @@
 
 export const infectionArticle = {
   title: 'Breast Implant Infection: Risk Factors, Prevention & Treatment',
-  metaTitle: 'Breast Implant Infection — Symptoms, Prevention & Treatment | Breasts-Implants.com',
-  metaDescription: 'Evidence-based guide to breast implant infection: risk factors, early vs. late infection, the 14-point plan, treatment protocols, and when implant removal is necessary.',
+  metaTitle: "Breast Implant Infection: Symptoms, Treatment, Prevention",
+  metaDescription: "Learn breast implant infection symptoms, early and late infection risks, prevention steps, treatment options, and when removal may be needed.",
   hubId: 'risks-complications',
   hubLabel: 'Risks & Safety',
   hubHref: '/breast-implants-risks-and-complications/',

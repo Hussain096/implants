@@ -4,8 +4,8 @@
 
 export const salineVsSiliconeArticle = {
   title: 'Saline vs. Silicone Breast Implants: A Complete Comparison',
-  metaTitle: 'Saline vs. Silicone Breast Implants — Which Is Right for You? | Breasts-Implants.com',
-  metaDescription: 'Compare saline and silicone breast implants: feel, safety, cost, FDA requirements, rupture detection, and appearance. Evidence-based guide to choosing the right type.',
+  metaTitle: "Saline vs Silicone Breast Implants: Safety, Cost, Feel",
+  metaDescription: "Compare saline and silicone breast implants by feel, cost, rupture detection, safety, FDA age limits, scarring, and ideal candidates. Includes key tips.",
   hubId: 'implant-types',
   hubLabel: 'Implant Types',
   hubHref: '/breast-implant-types/',

@@ -4,8 +4,8 @@
 
 export const nonSurgicalOptionsArticle = {
   title: 'Non-Surgical Breast Enhancement: Options, Evidence & Honest Assessment',
-  metaTitle: 'Non-Surgical Breast Enhancement — What Works & What Doesn\'t | Breasts-Implants.com',
-  metaDescription: 'Honest assessment of non-surgical breast enhancement: vampire breast lifts, fillers, vacuum devices, supplements, and exercises. Evidence-based evaluation.',
+  metaTitle: "Non-Surgical Breast Enhancement: Options, Safety, Results",
+  metaDescription: "Explore non-surgical breast enhancement options, what works, what does not, safety concerns, realistic results, and implant alternatives. Includes key tips.",
   hubId: 'alternatives',
   hubLabel: 'Alternatives',
   hubHref: '/breast-implants-alternatives/',

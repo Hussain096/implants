@@ -4,8 +4,8 @@
 
 export const mentorArticle = {
   title: 'Mentor Breast Implants: MemoryGel, Product Lines & Warranty',
-  metaTitle: 'Mentor Breast Implants — MemoryGel, Safety & Warranty Guide | Breasts-Implants.com',
-  metaDescription: 'Complete guide to Mentor breast implants (Johnson & Johnson): MemoryGel, MemoryShape, MENTOR Promise warranty, Core Study data, and comparison with competitors.',
+  metaTitle: "Mentor Breast Implants: MemoryGel, Safety, Warranty",
+  metaDescription: "Learn about Mentor breast implants, MemoryGel, MemoryShape, warranty coverage, safety data, product options, and brand comparisons. Includes key tips.",
   hubId: 'brands',
   hubLabel: 'Brands & Devices',
   hubHref: '/breast-implant-brands/',

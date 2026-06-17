@@ -4,8 +4,8 @@
 
 export const siliconeArticle = {
   title: 'Silicone Gel Breast Implants: The Complete Guide',
-  metaTitle: 'Silicone Gel Breast Implants — Safety, Cost, Pros & Cons | Breasts-Implants.com',
-  metaDescription: 'Everything you need to know about silicone gel breast implants. Covers safety, natural feel, FDA guidelines, costs ($6,000–$10,000), silent rupture, and MRI monitoring.',
+  metaTitle: "Silicone Breast Implants: Cost, Safety, MRI Screening",
+  metaDescription: "Learn about silicone breast implants, including feel, cost, safety, silent rupture screening, FDA guidance, pros and cons, and candidacy. Includes key tips.",
   hubId: 'implant-types',
   hubLabel: 'Implant Types',
   hubHref: '/breast-implant-types/',

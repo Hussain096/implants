@@ -4,6 +4,7 @@
 
 const routes = {};
 let currentCleanup = null;
+let renderToken = 0;
 const SITE_URL = 'https://breasts-implants.com';
 
 /**
@@ -56,7 +57,8 @@ export function initRouter() {
 /**
  * Render current route
  */
-function render() {
+async function render() {
+  const token = ++renderToken;
   const path = window.location.pathname;
 
   // Cleanup previous page
@@ -90,7 +92,8 @@ function render() {
   // Fallback to 404
   if (!handler) handler = routes['*'] || (() => ({ html: '<div class="container section"><h1>Page Not Found</h1><p>The page you\'re looking for doesn\'t exist.</p><a href="/" class="btn btn-primary">Go Home</a></div>' }));
 
-  const result = handler();
+  const result = await handler();
+  if (token !== renderToken) return;
   const app = document.querySelector('#app');
 
   if (result.html) {

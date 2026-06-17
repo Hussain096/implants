@@ -4,8 +4,8 @@
 
 export const gummyBearArticle = {
   title: 'Gummy Bear Breast Implants: Form-Stable Silicone Guide',
-  metaTitle: 'Gummy Bear Breast Implants — Pros, Cons, Cost & Safety | Breasts-Implants.com',
-  metaDescription: 'Complete guide to gummy bear (form-stable) breast implants. Learn how they differ from standard silicone, costs ($6,500–$12,000), shape retention, and who they\'re best for.',
+  metaTitle: "Gummy Bear Breast Implants: Cost, Safety, Pros & Cons",
+  metaDescription: "Learn what gummy bear breast implants are, how form-stable silicone works, pros and cons, costs, safety, rupture risk, and candidacy. Includes key tips.",
   hubId: 'implant-types',
   hubLabel: 'Implant Types',
   hubHref: '/breast-implant-types/',

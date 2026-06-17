@@ -4,8 +4,8 @@
 
 export const compositeAugmentationArticle = {
   title: 'Composite Breast Augmentation: Implants + Fat Transfer Combined',
-  metaTitle: 'Composite Breast Augmentation — Implant + Fat Grafting | Breasts-Implants.com',
-  metaDescription: 'Guide to composite breast augmentation: combining a breast implant with fat transfer for enhanced shape, coverage, and natural feel. Candidacy, benefits, and risks.',
+  metaTitle: "Composite Breast Augmentation: Implants + Fat Transfer",
+  metaDescription: "Learn how composite breast augmentation combines implants with fat transfer, including candidacy, benefits, limitations, cost, and recovery.",
   hubId: 'alternatives',
   hubLabel: 'Alternatives',
   hubHref: '/breast-implants-alternatives/',

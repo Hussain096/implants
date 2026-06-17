@@ -4,8 +4,8 @@
 
 export const insuranceCoverageArticle = {
   title: 'Insurance Coverage for Breast Implants: What\'s Covered & What\'s Not',
-  metaTitle: 'Breast Implant Insurance Coverage — WHCRA & What\'s Covered | Breasts-Implants.com',
-  metaDescription: 'When does insurance cover breast implants? Reconstruction after mastectomy, WHCRA law, revision for complications, and cosmetic exclusions explained.',
+  metaTitle: "Insurance Coverage for Breast Implants: Rules & Tips",
+  metaDescription: "Learn when insurance may cover breast implants, including reconstruction, complications, revision surgery, WHCRA rights, and documentation tips.",
   hubId: 'costs-financing',
   hubLabel: 'Costs & Financing',
   hubHref: '/costs-financing/',

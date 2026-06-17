@@ -4,8 +4,8 @@
 
 export const breastImplantRemovalArticle = {
   title: 'Breast Implant Removal (Explant Surgery): Cost, Recovery & Techniques',
-  metaTitle: 'Breast Implant Removal (Explant Surgery) — Cost & Recovery | Breasts-Implants.com',
-  metaDescription: 'Complete medical guide to breast implant removal (explant surgery). Covers surgical techniques (capsusectomy, en bloc), costs ($5,000–$12,000), side effects, and recovery.',
+  metaTitle: "Breast Implant Removal: Explant Cost, Recovery, Risks",
+  metaDescription: "Learn about breast implant removal surgery, explant techniques, capsulectomy, costs, recovery, risks, and what results to expect. Includes key tips.",
   hubId: 'procedure',
   hubLabel: 'Procedure',
   hubHref: '/breast-implant-procedures/',

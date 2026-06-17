@@ -4,8 +4,8 @@
 
 export const emergingResearchArticle = {
   title: 'Emerging Research in Breast Implant Science & Technology',
-  metaTitle: 'Emerging Breast Implant Research — New Technology & Studies | Breasts-Implants.com',
-  metaDescription: 'Latest research in breast implant science: next-gen surfaces, biofilm prevention, BII research, tissue engineering, and what\'s on the horizon.',
+  metaTitle: "Emerging Breast Implant Research: Safety, BII, Biofilm",
+  metaDescription: "Explore emerging breast implant research on BII, biofilm, surface technology, safety monitoring, imaging, and future implant design. Includes key tips.",
   hubId: 'research',
   hubLabel: 'Research & Safety Data',
   hubHref: '/research-and-data/',

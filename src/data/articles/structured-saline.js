@@ -4,8 +4,8 @@
 
 export const structuredSalineArticle = {
   title: 'Structured Saline Breast Implants: The IDEAL IMPLANT Guide',
-  metaTitle: 'Structured Saline (IDEAL) Breast Implants — Guide & Review | Breasts-Implants.com',
-  metaDescription: 'Guide to structured saline breast implants (IDEAL IMPLANT). Combines saline safety with improved feel through internal baffle structure. Cost, pros/cons, and candidacy.',
+  metaTitle: "Structured Saline Implants: Cost, Safety, Feel Guide",
+  metaDescription: "Learn how structured saline implants work, including internal shell design, feel, rupture detection, cost, safety, and ideal candidates. Includes key tips.",
   hubId: 'implant-types',
   hubLabel: 'Implant Types',
   hubHref: '/breast-implant-types/',

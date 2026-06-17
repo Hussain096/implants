@@ -4,8 +4,8 @@
 
 export const breastAugmentationSurgeryArticle = {
   title: 'Breast Augmentation Surgery (Boob Job): What to Expect Step by Step',
-  metaTitle: 'Breast Augmentation Surgery (Boob Job) — Step-by-Step Guide | Breasts-Implants.com',
-  metaDescription: 'Complete guide to breast augmentation surgery (boob job): consultation, preparation, surgery day walkthrough, anesthesia, implant placement, cost, and recovery.',
+  metaTitle: "Breast Augmentation Surgery: Procedure, Recovery, Risks",
+  metaDescription: "Learn what happens before, during, and after breast augmentation surgery, including consultation, anesthesia, placement, incisions, and recovery.",
   hubId: 'procedure',
   hubLabel: 'Procedure',
   hubHref: '/breast-implant-procedures/',

@@ -4,8 +4,8 @@
 
 export const financingOptionsArticle = {
   title: 'Breast Implant Financing Options: How to Pay for Augmentation',
-  metaTitle: 'Breast Implant Financing — CareCredit, Payment Plans & Options | Breasts-Implants.com',
-  metaDescription: 'Compare breast augmentation financing options: CareCredit, Alphaeon, in-house plans, medical loans, and HSA/FSA. Interest rates, terms, and tips for approval.',
+  metaTitle: "Breast Implant Financing Options: Plans, Credit, Loans",
+  metaDescription: "Compare breast implant financing options, including medical credit cards, loans, payment plans, HSA/FSA use, approval tips, and risks. Includes key tips.",
   hubId: 'costs-financing',
   hubLabel: 'Costs & Financing',
   hubHref: '/costs-financing/',

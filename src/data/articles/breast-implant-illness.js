@@ -4,8 +4,8 @@
 
 export const biiArticle = {
   title: 'Breast Implant Illness (BII): Symptoms, Research & What to Know',
-  metaTitle: 'Breast Implant Illness (BII) — Symptoms, Evidence & Treatment | Breasts-Implants.com',
-  metaDescription: 'Evidence-based guide to breast implant illness (BII). Learn about reported symptoms, current research, FDA position, explantation outcomes, and what to discuss with your doctor.',
+  metaTitle: "Breast Implant Illness: Symptoms, Research, Explant",
+  metaDescription: "Evidence-based guide to breast implant illness symptoms, FDA position, current research, explant outcomes, and doctor discussion points. Includes key tips.",
   hubId: 'risks-complications',
   hubLabel: 'Risks & Safety',
   hubHref: '/breast-implants-risks-and-complications/',

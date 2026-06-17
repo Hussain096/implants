@@ -4,8 +4,8 @@
 
 export const breastReconstructionArticle = {
   title: 'Breast Reconstruction Surgery: Options, Recovery & Flap Techniques',
-  metaTitle: 'Breast Reconstruction (Post-Mastectomy Options) | Breasts-Implants.com',
-  metaDescription: 'Comprehensive medical guide to breast reconstruction surgery after mastectomy. Explores DIEP flap, Latissimus Dorsi, implant-based reconstruction, cost, and recovery.',
+  metaTitle: "Breast Reconstruction Surgery: Options, Cost, Recovery",
+  metaDescription: "Understand breast reconstruction options after mastectomy, including implants, DIEP flap, latissimus dorsi flap, costs, and recovery. Includes key tips.",
   hubId: 'procedure',
   hubLabel: 'Procedure',
   hubHref: '/breast-implant-procedures/',

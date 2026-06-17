@@ -4,8 +4,8 @@
 
 export const sientraArticle = {
   title: 'Sientra Breast Implants: Opus Line, Safety Data & Warranty',
-  metaTitle: 'Sientra Breast Implants — Surgeon-Exclusive Brand Guide | Breasts-Implants.com',
-  metaDescription: 'Complete guide to Sientra breast implants: the only brand exclusively sold to board-certified plastic surgeons. Opus line, safety data, and Platinum20 warranty.',
+  metaTitle: "Sientra Breast Implants: Safety, Warranty, Product Lines",
+  metaDescription: "Learn about Sientra breast implants, product lines, surgeon-only access, warranty coverage, safety data, and brand comparisons. Includes key tips.",
   hubId: 'brands',
   hubLabel: 'Brands & Devices',
   hubHref: '/breast-implant-brands/',

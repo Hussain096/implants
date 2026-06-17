@@ -4,8 +4,8 @@
 
 export const breastLiftAugmentationArticle = {
   title: 'Breast Lift with Augmentation: Combining Mastopexy & Implants',
-  metaTitle: 'Breast Lift with Augmentation \u2014 Mastopexy + Implants Guide | Breasts-Implants.com',
-  metaDescription: 'Complete guide to combining breast lift with augmentation (augmentation mastopexy). Cost ($8,000\u2013$15,000), candidacy, techniques, recovery, and whether to do one or two surgeries.',
+  metaTitle: "Breast Lift with Augmentation: Cost, Recovery, Risks",
+  metaDescription: "Compare breast lift with augmentation options, candidacy, one-stage versus staged surgery, cost ranges, recovery, risks, and results. Includes key tips.",
   hubId: 'procedure',
   hubLabel: 'Procedure',
   hubHref: '/breast-implant-procedures/',

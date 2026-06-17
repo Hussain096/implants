@@ -86,6 +86,11 @@ export function articlePage(articleData) {
 
       <!-- Main Content -->
       <article class="article-content" id="article-content">
+        <div class="answer-first-box" id="quick-answer">
+          <span class="section-label">Quick Answer</span>
+          <p><strong>${title}:</strong> ${metaDescription}</p>
+        </div>
+
         ${keyTakeaways.length > 0 ? `
         <!-- Key Takeaways Box -->
         <div class="key-takeaways" id="key-takeaways">
@@ -201,6 +206,8 @@ export function articlePage(articleData) {
         { name: hubLabel, url: hubHref },
         { name: title, url: window.location.pathname },
       ]),
+      personSchema(author, 'Author', '/editorial-policy/'),
+      personSchema(reviewer, 'Medical Reviewer', '/medical-reviewers/'),
       medicalWebPageSchema({
         name: title,
         url: window.location.pathname,
@@ -220,6 +227,20 @@ export function articlePage(articleData) {
       initCommon();
       initArticle();
     }
+  };
+}
+
+function personSchema(name, role, url) {
+  return {
+    '@type': 'Person',
+    name,
+    jobTitle: role,
+    url: `https://breasts-implants.com${url}`,
+    affiliation: {
+      '@type': 'Organization',
+      name: 'Breasts-Implants.com',
+      url: 'https://breasts-implants.com',
+    },
   };
 }
 

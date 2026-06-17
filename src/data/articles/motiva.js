@@ -4,8 +4,8 @@
 
 export const motivaArticle = {
   title: 'Motiva Breast Implants: SmoothSilk, Ergonomix & Innovation',
-  metaTitle: 'Motiva Breast Implants — SmoothSilk Technology & FDA Guide | Breasts-Implants.com',
-  metaDescription: 'Complete guide to Motiva breast implants: SmoothSilk surface, Ergonomix2, Progressive Gel, FDA approval, and how they compare to established brands.',
+  metaTitle: "Motiva Breast Implants: SmoothSilk, Safety, FDA Status",
+  metaDescription: "Learn about Motiva breast implants, SmoothSilk technology, Ergonomix design, FDA status, warranty, safety data, and comparisons. Includes key tips.",
   hubId: 'brands',
   hubLabel: 'Brands & Devices',
   hubHref: '/breast-implant-brands/',

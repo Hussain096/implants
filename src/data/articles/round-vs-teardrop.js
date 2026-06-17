@@ -4,8 +4,8 @@
 
 export const roundVsTeardropArticle = {
   title: 'Round vs. Teardrop Breast Implants: Shape, Safety, and Results',
-  metaTitle: 'Round vs. Teardrop Breast Implants - Shape Comparison | Breasts-Implants.com',
-  metaDescription: 'Compare round and teardrop breast implants: natural appearance, rotation risk, textured shell concerns, cost, and who is best suited for each shape.',
+  metaTitle: "Round vs Teardrop Breast Implants: Shape & Safety Guide",
+  metaDescription: "Compare round and teardrop breast implants by shape, feel, rotation risk, texture concerns, candidacy, cost, and expected results. Includes key tips.",
   hubId: 'shapes-sizes',
   hubLabel: 'Shapes & Sizes',
   hubHref: '/shapes-and-sizes/',

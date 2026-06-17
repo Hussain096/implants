@@ -4,8 +4,8 @@
 
 export const allerganArticle = {
   title: 'Allergan Natrelle Breast Implants: Product Lines, Safety & Warranty',
-  metaTitle: 'Allergan Natrelle Breast Implants — Complete Brand Guide | Breasts-Implants.com',
-  metaDescription: 'Complete guide to Allergan Natrelle breast implants: Inspira, BIOCELL recall, ConfidencePlus warranty, safety data, and how they compare to competitors.',
+  metaTitle: "Allergan Natrelle Breast Implants: Safety & Warranty",
+  metaDescription: "Learn about Allergan Natrelle breast implants, Inspira options, BIOCELL recall history, warranty coverage, safety data, and brand comparisons.",
   hubId: 'brands',
   hubLabel: 'Brands & Devices',
   hubHref: '/breast-implant-brands/',

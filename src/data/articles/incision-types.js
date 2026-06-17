@@ -4,8 +4,8 @@
 
 export const incisionTypesArticle = {
   title: 'Breast Implant Incision Types: Inframammary, Periareolar & More',
-  metaTitle: 'Breast Implant Incision Types — Location Comparison | Breasts-Implants.com',
-  metaDescription: 'Compare breast augmentation incision types: inframammary (under breast), periareolar (around nipple), transaxillary (armpit), and transumbilical (belly button).',
+  metaTitle: "Breast Implant Incision Types: Scars, Risks, Options",
+  metaDescription: "Compare breast implant incision types, including inframammary, periareolar, transaxillary, scarring, risks, and surgeon preferences. Includes key tips.",
   hubId: 'procedure',
   hubLabel: 'Procedure',
   hubHref: '/breast-implant-procedures/',

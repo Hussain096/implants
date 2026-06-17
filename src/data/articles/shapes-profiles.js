@@ -4,8 +4,8 @@
 
 export const shapesProfilesArticle = {
   title: 'Breast Implant Shapes & Profiles: Round vs. Anatomical Guide',
-  metaTitle: 'Breast Implant Shapes & Profiles — Round vs. Anatomical | Breasts-Implants.com',
-  metaDescription: 'Complete guide to breast implant shapes (round vs anatomical) and profiles (low, moderate, high). Learn which combination best suits your body type and goals.',
+  metaTitle: "Breast Implant Shapes: Round, Teardrop, Profiles Guide",
+  metaDescription: "Understand breast implant shapes, round versus anatomical options, profiles, projection, sizing, and how surgeons match implants to your frame.",
   hubId: 'shapes-sizes',
   hubLabel: 'Shapes & Sizes',
   hubHref: '/shapes-and-sizes/',

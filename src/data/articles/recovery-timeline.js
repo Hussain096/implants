@@ -4,8 +4,8 @@
 
 export const recoveryTimelineArticle = {
   title: 'Breast Augmentation Recovery Timeline: Week-by-Week Guide',
-  metaTitle: 'Breast Augmentation Recovery Timeline — Boob Job Recovery Guide | Breasts-Implants.com',
-  metaDescription: 'Detailed breast augmentation recovery timeline from surgery day through 6 months. Boob job recovery day-by-day, pain management, activity restrictions, and when to call your surgeon.',
+  metaTitle: "Breast Augmentation Recovery Timeline: Week-by-Week",
+  metaDescription: "Follow a breast augmentation recovery timeline from day one to six weeks, including pain, swelling, activity limits, and warning signs. Includes key tips.",
   hubId: 'procedure',
   hubLabel: 'Procedure',
   hubHref: '/breast-implant-procedures/',

@@ -4,8 +4,8 @@
 
 export const choosingSurgeonArticle = {
   title: 'How to Choose a Plastic Surgeon for Breast Augmentation',
-  metaTitle: 'How to Choose a Plastic Surgeon — Verification Guide | Breasts-Implants.com',
-  metaDescription: 'Step-by-step guide to choosing a qualified plastic surgeon for breast augmentation. Board certification, red flags, consultation tips, and verification resources.',
+  metaTitle: "How to Choose a Breast Implant Surgeon Safely: Checklist",
+  metaDescription: "Use this checklist to choose a breast implant surgeon, verify board certification, review safety standards, and spot red flags. Includes key tips.",
   hubId: 'procedure',
   hubLabel: 'Procedure',
   hubHref: '/breast-implant-procedures/',

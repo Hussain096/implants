@@ -4,7 +4,7 @@
 
 import { pageLayout, initCommon } from '../components/layout.js';
 import { faqPageSchema, medicalWebPageSchema, organizationSchema, webSiteSchema } from '../data/schema.js';
-import heroImg from '../assets/hero-medical.png';
+import heroImg from '../assets/hero-medical.webp';
 
 export function homePage() {
   const html = pageLayout(`

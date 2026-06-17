@@ -3,6 +3,7 @@
 // ============================================
 
 import { pageLayout, initCommon } from '../components/layout.js';
+import { organizationSchema, webSiteSchema } from '../data/schema.js';
 
 export function medicalReviewersPage() {
   const reviewers = [
@@ -205,6 +206,22 @@ export function medicalReviewersPage() {
     html,
     title: 'Medical Reviewers — Our Expert Team | Breasts-Implants.com',
     description: 'Meet the board-certified plastic surgeons and medical writers who review every article on Breasts-Implants.com. Our commitment to accuracy and patient safety.',
+    schema: [
+      organizationSchema(),
+      webSiteSchema(),
+      ...reviewers.map(reviewer => ({
+        '@type': 'Person',
+        name: reviewer.name,
+        jobTitle: reviewer.role,
+        description: reviewer.experience,
+        knowsAbout: reviewer.reviewFocus,
+        affiliation: {
+          '@type': 'Organization',
+          name: 'Breasts-Implants.com',
+          url: 'https://breasts-implants.com',
+        },
+      })),
+    ],
     init() {
       initCommon();
     },

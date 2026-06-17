@@ -4,8 +4,8 @@
 
 export const ruptureArticle = {
   title: 'Breast Implant Rupture: Detection, Symptoms & What to Do',
-  metaTitle: 'Breast Implant Rupture — Saline vs. Silicone Detection | Breasts-Implants.com',
-  metaDescription: 'Complete guide to breast implant rupture: how to detect saline deflation vs. silicone silent rupture, causes, symptoms, treatment options, and FDA monitoring guidelines.',
+  metaTitle: "Breast Implant Rupture: Symptoms, MRI, Treatment Guide",
+  metaDescription: "Learn breast implant rupture symptoms, saline versus silicone differences, silent rupture screening, MRI/ultrasound, and treatment options. Includes key tips.",
   hubId: 'risks-complications',
   hubLabel: 'Risks & Safety',
   hubHref: '/breast-implants-risks-and-complications/',

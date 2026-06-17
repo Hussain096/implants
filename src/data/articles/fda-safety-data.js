@@ -4,8 +4,8 @@
 
 export const fdaSafetyDataArticle = {
   title: 'FDA Breast Implant Safety Data: Post-Approval Studies & MAUDE Reports',
-  metaTitle: 'FDA Breast Implant Safety Data — Studies & Reports | Breasts-Implants.com',
-  metaDescription: 'Comprehensive overview of FDA breast implant safety data: post-approval studies, MAUDE adverse event reports, safety communications, and what the data shows.',
+  metaTitle: "FDA Breast Implant Safety Data: Studies & Reports Guide",
+  metaDescription: "Review FDA breast implant safety data, post-approval studies, MAUDE reports, labeling updates, safety alerts, and what patients should know.",
   hubId: 'research',
   hubLabel: 'Research & Safety Data',
   hubHref: '/research-and-data/',

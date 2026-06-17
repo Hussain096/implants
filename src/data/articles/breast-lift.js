@@ -4,8 +4,8 @@
 
 export const breastLiftArticle = {
   title: 'Breast Lift (Mastopexy): Procedure, Cost, Recovery & Results',
-  metaTitle: 'Breast Lift (Mastopexy) — Cost, Recovery, Before & After | Breasts-Implants.com',
-  metaDescription: 'Complete guide to breast lift surgery (mastopexy). Covers techniques, candidacy, cost ($5,000–$10,000), recovery timeline, before and after results, and alternatives.',
+  metaTitle: "Breast Lift Surgery: Cost, Recovery, Results, Risks",
+  metaDescription: "Learn about breast lift surgery, mastopexy techniques, candidacy, scarring, cost, recovery timeline, risks, and alternatives. Includes key tips.",
   hubId: 'procedure',
   hubLabel: 'Procedure',
   hubHref: '/breast-implant-procedures/',

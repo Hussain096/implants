@@ -4,8 +4,8 @@
 
 export const fatTransferArticle = {
   title: 'Fat Transfer Breast Augmentation: Natural Alternative to Implants',
-  metaTitle: 'Fat Transfer Breast Augmentation — Pros, Cons, Results | Breasts-Implants.com',
-  metaDescription: 'Complete guide to fat transfer breast augmentation. Uses your own fat for natural enhancement of 1–1.5 cup sizes. Cost, candidacy, limitations, and comparison to implants.',
+  metaTitle: "Fat Transfer Breast Augmentation: Cost, Risks, Results",
+  metaDescription: "Learn how fat transfer breast augmentation works, including candidacy, recovery, results, cost, risks, and how it compares with implants. Includes key tips.",
   hubId: 'alternatives',
   hubLabel: 'Alternatives',
   hubHref: '/breast-implants-alternatives/',

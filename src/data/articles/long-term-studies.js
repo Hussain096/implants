@@ -4,8 +4,8 @@
 
 export const longTermStudiesArticle = {
   title: 'Breast Implant Long-Term Studies: 10-Year Core Study Results',
-  metaTitle: 'Long-Term Breast Implant Studies — 10-Year Data & Outcomes | Breasts-Implants.com',
-  metaDescription: 'Summary of 10-year breast implant Core Studies from Allergan, Mentor, and Sientra. Capsular contracture, rupture, reoperation rates, and patient satisfaction data.',
+  metaTitle: "Breast Implant Long-Term Studies: Safety & Outcomes",
+  metaDescription: "Review long-term breast implant studies, complication rates, rupture data, reoperation trends, safety findings, and research limitations. Includes key tips.",
   hubId: 'research',
   hubLabel: 'Research & Safety Data',
   hubHref: '/research-and-data/',

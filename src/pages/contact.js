@@ -65,6 +65,8 @@ export function contactPage() {
                 <option value="general-question">General Question</option>
                 <option value="media-inquiry">Media / Press Inquiry</option>
                 <option value="partnership">Partnership / Collaboration</option>
+                <option value="privacy-request">Privacy Request</option>
+                <option value="legal-request">Legal / Terms Question</option>
                 <option value="technical-issue">Technical Issue</option>
                 <option value="other">Other</option>
               </select>
@@ -162,28 +164,46 @@ function initContactForm() {
   const form = document.getElementById('contactForm');
   if (!form) return;
 
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const status = document.getElementById('form-status');
     const btn = document.getElementById('contact-submit');
 
-    // Simulate form submission (no backend)
     btn.disabled = true;
     btn.textContent = 'Sending...';
 
-    setTimeout(() => {
+    try {
+      const payload = Object.fromEntries(new FormData(form).entries());
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      const result = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        throw new Error(result.error || 'Message could not be sent. Please email contact@breasts-implants.com directly.');
+      }
+
       if (status) {
         status.style.display = 'block';
         status.className = 'form-status form-status--success';
-        status.innerHTML = '<strong>✅ Message sent!</strong> Thank you for reaching out. We\'ll respond within the timeframes listed above.';
+        status.innerHTML = '<strong>? Message sent!</strong> Thank you for reaching out. We\'ll respond within the timeframes listed above.';
       }
-      btn.textContent = 'Message Sent ✓';
+      btn.textContent = 'Message Sent ?';
       form.reset();
-
+    } catch (error) {
+      if (status) {
+        status.style.display = 'block';
+        status.className = 'form-status form-status--error';
+        status.innerHTML = '<strong>Unable to send.</strong> ' + error.message;
+      }
+      btn.textContent = 'Send Message ?';
+    } finally {
       setTimeout(() => {
         btn.disabled = false;
-        btn.textContent = 'Send Message →';
-      }, 3000);
-    }, 1500);
+        btn.textContent = 'Send Message ?';
+      }, 2500);
+    }
   });
 }

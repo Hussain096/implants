@@ -4,8 +4,8 @@
 
 export const breastImplantCostArticle = {
   title: 'Breast Implant Cost: Complete Price Guide for 2026',
-  metaTitle: 'How Much Do Breast Implants Cost? Complete Price Guide 2026 | Breasts-Implants.com',
-  metaDescription: 'Breast implant costs range from $5,000–$12,000 total. Detailed breakdown of surgeon fees, implant costs, anesthesia, facility fees, and hidden expenses for 2026.',
+  metaTitle: "How Much Do Breast Implants Cost in 2026? Full Guide",
+  metaDescription: "See breast implant cost ranges, surgeon fees, anesthesia, facility charges, implant prices, financing options, and hidden expenses. Includes key tips.",
   hubId: 'costs-financing',
   hubLabel: 'Costs & Financing',
   hubHref: '/costs-financing/',

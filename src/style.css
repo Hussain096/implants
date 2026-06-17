@@ -1428,6 +1428,21 @@ html.dark .hub-note { background: hsl(210,30%,12%); border-color: var(--color-bo
 }
 .article-list li strong { color: var(--color-text); }
 
+/* Answer-first box for snippets and AI summaries */
+.answer-first-box {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.answer-first-box p {
+  color: var(--color-text);
+  margin-top: 0.35rem;
+}
+
 /* Key Takeaways Box */
 .key-takeaways {
   background: linear-gradient(135deg, hsl(168, 50%, 95%), hsl(210, 60%, 96%));

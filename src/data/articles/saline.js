@@ -4,8 +4,8 @@
 
 export const salineArticle = {
   title: 'Saline Breast Implants: The Complete Guide',
-  metaTitle: 'Saline Breast Implants — Safety, Cost, Pros & Cons | Breasts-Implants.com',
-  metaDescription: 'Comprehensive guide to saline breast implants. Learn about safety, costs ($5,000–$8,000), FDA approval, pros and cons, rupture detection, and how they compare to silicone.',
+  metaTitle: "Saline Breast Implants: Cost, Safety, Pros & Cons Guide",
+  metaDescription: "Learn about saline breast implants, including cost, feel, rupture detection, safety, FDA approval age, pros and cons, and candidacy. Includes key tips.",
   hubId: 'implant-types',
   hubLabel: 'Implant Types',
   hubHref: '/breast-implant-types/',

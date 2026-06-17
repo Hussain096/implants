@@ -15,58 +15,6 @@ import { patientGuidesPage } from './pages/patient-guides.js';
 import { medicalReviewersPage } from './pages/medical-reviewers.js';
 import { contactPage } from './pages/contact.js';
 
-// Article Data — Implant Types Silo
-import { salineArticle } from './data/articles/saline.js';
-import { siliconeArticle } from './data/articles/silicone.js';
-import { salineVsSiliconeArticle } from './data/articles/saline-vs-silicone.js';
-import { gummyBearArticle } from './data/articles/gummy-bear.js';
-import { structuredSalineArticle } from './data/articles/structured-saline.js';
-
-// Article Data — Shapes & Sizes Silo
-import { shapesProfilesArticle } from './data/articles/shapes-profiles.js';
-import { roundVsTeardropArticle } from './data/articles/round-vs-teardrop.js';
-import { implantProfilesArticle } from './data/articles/implant-profiles.js';
-
-// Article Data — Procedure Silo
-import { breastAugmentationSurgeryArticle } from './data/articles/breast-augmentation-surgery.js';
-import { implantPlacementArticle } from './data/articles/implant-placement.js';
-import { incisionTypesArticle } from './data/articles/incision-types.js';
-import { recoveryTimelineArticle } from './data/articles/recovery-timeline.js';
-import { choosingSurgeonArticle } from './data/articles/choosing-surgeon.js';
-import { breastLiftArticle } from './data/articles/breast-lift.js';
-import { breastLiftAugmentationArticle } from './data/articles/breast-lift-augmentation.js';
-import { breastImplantRemovalArticle } from './data/articles/breast-implant-removal.js';
-import { breastReconstructionArticle } from './data/articles/breast-reconstruction.js';
-
-// Article Data — Costs & Financing Silo
-import { breastImplantCostArticle } from './data/articles/breast-implant-cost.js';
-import { financingOptionsArticle } from './data/articles/financing-options.js';
-import { insuranceCoverageArticle } from './data/articles/insurance-coverage.js';
-
-// Article Data — Risks & Complications Silo
-import { capsularContractureArticle } from './data/articles/capsular-contracture.js';
-import { biiArticle } from './data/articles/breast-implant-illness.js';
-import { ruptureArticle } from './data/articles/rupture.js';
-import { biaAlclArticle } from './data/articles/bia-alcl.js';
-import { infectionArticle } from './data/articles/infection.js';
-
-// Article Data — Brands Silo
-import { brandsComparisonArticle } from './data/articles/brands-comparison.js';
-import { allerganArticle } from './data/articles/allergan.js';
-import { mentorArticle } from './data/articles/mentor.js';
-import { sientraArticle } from './data/articles/sientra.js';
-import { motivaArticle } from './data/articles/motiva.js';
-
-// Article Data — Alternatives Silo
-import { fatTransferArticle } from './data/articles/fat-transfer.js';
-import { compositeAugmentationArticle } from './data/articles/composite-augmentation.js';
-import { nonSurgicalOptionsArticle } from './data/articles/non-surgical-options.js';
-
-// Article Data — Research Silo
-import { fdaSafetyDataArticle } from './data/articles/fda-safety-data.js';
-import { longTermStudiesArticle } from './data/articles/long-term-studies.js';
-import { emergingResearchArticle } from './data/articles/emerging-research.js';
-
 // ============================================
 // Dark Mode: Apply saved/system preference BEFORE render
 // ============================================
@@ -76,6 +24,11 @@ import { emergingResearchArticle } from './data/articles/emerging-research.js';
     document.documentElement.classList.add('dark');
   }
 })();
+
+const lazyArticle = (loader, exportName) => async () => {
+  const module = await loader();
+  return articlePage(module[exportName]);
+};
 
 // ============================================
 // Register Routes
@@ -95,58 +48,58 @@ route('/breast-implants-alternatives/', () => hubPage('alternatives'));
 route('/research-and-data/', () => hubPage('research'));
 
 // Article Pages — Implant Types Silo
-route('/saline-breast-implants/', () => articlePage(salineArticle));
-route('/silicone-breast-implants/', () => articlePage(siliconeArticle));
-route('/saline-vs-silicone-implants/', () => articlePage(salineVsSiliconeArticle));
-route('/gummy-bear-implants/', () => articlePage(gummyBearArticle));
-route('/structured-saline-implants/', () => articlePage(structuredSalineArticle));
+route('/saline-breast-implants/', lazyArticle(() => import('./data/articles/saline.js'), 'salineArticle'));
+route('/silicone-breast-implants/', lazyArticle(() => import('./data/articles/silicone.js'), 'siliconeArticle'));
+route('/saline-vs-silicone-implants/', lazyArticle(() => import('./data/articles/saline-vs-silicone.js'), 'salineVsSiliconeArticle'));
+route('/gummy-bear-implants/', lazyArticle(() => import('./data/articles/gummy-bear.js'), 'gummyBearArticle'));
+route('/structured-saline-implants/', lazyArticle(() => import('./data/articles/structured-saline.js'), 'structuredSalineArticle'));
 
 // Article Pages — Shapes & Sizes Silo
-route('/breast-implants-shapes/', () => articlePage(shapesProfilesArticle));
-route('/round-vs-teardrop-implants/', () => articlePage(roundVsTeardropArticle));
-route('/breast-implant-profiles/', () => articlePage(implantProfilesArticle));
+route('/breast-implants-shapes/', lazyArticle(() => import('./data/articles/shapes-profiles.js'), 'shapesProfilesArticle'));
+route('/round-vs-teardrop-implants/', lazyArticle(() => import('./data/articles/round-vs-teardrop.js'), 'roundVsTeardropArticle'));
+route('/breast-implant-profiles/', lazyArticle(() => import('./data/articles/implant-profiles.js'), 'implantProfilesArticle'));
 route('/breast-implants-cc-size-chart/', ccSizeChartPage);
 
 // Article Pages — Procedure Silo
-route('/breast-augmentation-surgery/', () => articlePage(breastAugmentationSurgeryArticle));
-route('/breast-implant-placement/', () => articlePage(implantPlacementArticle));
-route('/breast-implant-incision-types/', () => articlePage(incisionTypesArticle));
-route('/breast-augmentation-recovery-timeline/', () => articlePage(recoveryTimelineArticle));
+route('/breast-augmentation-surgery/', lazyArticle(() => import('./data/articles/breast-augmentation-surgery.js'), 'breastAugmentationSurgeryArticle'));
+route('/breast-implant-placement/', lazyArticle(() => import('./data/articles/implant-placement.js'), 'implantPlacementArticle'));
+route('/breast-implant-incision-types/', lazyArticle(() => import('./data/articles/incision-types.js'), 'incisionTypesArticle'));
+route('/breast-augmentation-recovery-timeline/', lazyArticle(() => import('./data/articles/recovery-timeline.js'), 'recoveryTimelineArticle'));
 route('/questions-for-surgeon/', questionsPage);
-route('/choosing-surgeon/', () => articlePage(choosingSurgeonArticle));
-route('/breast-lift/', () => articlePage(breastLiftArticle));
-route('/breast-lift-with-augmentation/', () => articlePage(breastLiftAugmentationArticle));
-route('/breast-implant-removal/', () => articlePage(breastImplantRemovalArticle));
-route('/breast-reconstruction/', () => articlePage(breastReconstructionArticle));
+route('/choosing-surgeon/', lazyArticle(() => import('./data/articles/choosing-surgeon.js'), 'choosingSurgeonArticle'));
+route('/breast-lift/', lazyArticle(() => import('./data/articles/breast-lift.js'), 'breastLiftArticle'));
+route('/breast-lift-with-augmentation/', lazyArticle(() => import('./data/articles/breast-lift-augmentation.js'), 'breastLiftAugmentationArticle'));
+route('/breast-implant-removal/', lazyArticle(() => import('./data/articles/breast-implant-removal.js'), 'breastImplantRemovalArticle'));
+route('/breast-reconstruction/', lazyArticle(() => import('./data/articles/breast-reconstruction.js'), 'breastReconstructionArticle'));
 
 // Article Pages — Costs & Financing Silo
-route('/breast-implant-cost/', () => articlePage(breastImplantCostArticle));
-route('/breast-implant-financing-options/', () => articlePage(financingOptionsArticle));
-route('/insurance-coverage-for-breast-implants/', () => articlePage(insuranceCoverageArticle));
+route('/breast-implant-cost/', lazyArticle(() => import('./data/articles/breast-implant-cost.js'), 'breastImplantCostArticle'));
+route('/breast-implant-financing-options/', lazyArticle(() => import('./data/articles/financing-options.js'), 'financingOptionsArticle'));
+route('/insurance-coverage-for-breast-implants/', lazyArticle(() => import('./data/articles/insurance-coverage.js'), 'insuranceCoverageArticle'));
 
 // Article Pages — Risks & Complications Silo
-route('/capsular-contracture/', () => articlePage(capsularContractureArticle));
-route('/breast-implant-illness/', () => articlePage(biiArticle));
-route('/breast-implant-rupture/', () => articlePage(ruptureArticle));
-route('/bia-alcl/', () => articlePage(biaAlclArticle));
-route('/breast-implant-infection/', () => articlePage(infectionArticle));
+route('/capsular-contracture/', lazyArticle(() => import('./data/articles/capsular-contracture.js'), 'capsularContractureArticle'));
+route('/breast-implant-illness/', lazyArticle(() => import('./data/articles/breast-implant-illness.js'), 'biiArticle'));
+route('/breast-implant-rupture/', lazyArticle(() => import('./data/articles/rupture.js'), 'ruptureArticle'));
+route('/bia-alcl/', lazyArticle(() => import('./data/articles/bia-alcl.js'), 'biaAlclArticle'));
+route('/breast-implant-infection/', lazyArticle(() => import('./data/articles/infection.js'), 'infectionArticle'));
 
 // Article Pages — Brands Silo
-route('/breast-implant-brands-comparison/', () => articlePage(brandsComparisonArticle));
-route('/allergan/', () => articlePage(allerganArticle));
-route('/mentor/', () => articlePage(mentorArticle));
-route('/sientra/', () => articlePage(sientraArticle));
-route('/motiva/', () => articlePage(motivaArticle));
+route('/breast-implant-brands-comparison/', lazyArticle(() => import('./data/articles/brands-comparison.js'), 'brandsComparisonArticle'));
+route('/allergan/', lazyArticle(() => import('./data/articles/allergan.js'), 'allerganArticle'));
+route('/mentor/', lazyArticle(() => import('./data/articles/mentor.js'), 'mentorArticle'));
+route('/sientra/', lazyArticle(() => import('./data/articles/sientra.js'), 'sientraArticle'));
+route('/motiva/', lazyArticle(() => import('./data/articles/motiva.js'), 'motivaArticle'));
 
 // Article Pages — Alternatives Silo
-route('/fat-transfer-breast-augmentation/', () => articlePage(fatTransferArticle));
-route('/composite-breast-augmentation/', () => articlePage(compositeAugmentationArticle));
-route('/non-surgical-options/', () => articlePage(nonSurgicalOptionsArticle));
+route('/fat-transfer-breast-augmentation/', lazyArticle(() => import('./data/articles/fat-transfer.js'), 'fatTransferArticle'));
+route('/composite-breast-augmentation/', lazyArticle(() => import('./data/articles/composite-augmentation.js'), 'compositeAugmentationArticle'));
+route('/non-surgical-options/', lazyArticle(() => import('./data/articles/non-surgical-options.js'), 'nonSurgicalOptionsArticle'));
 
 // Article Pages — Research Silo
-route('/fda-breast-implant-safety-data/', () => articlePage(fdaSafetyDataArticle));
-route('/breast-implant-long-term-studies/', () => articlePage(longTermStudiesArticle));
-route('/emerging-research-in-breast-implant/', () => articlePage(emergingResearchArticle));
+route('/fda-breast-implant-safety-data/', lazyArticle(() => import('./data/articles/fda-safety-data.js'), 'fdaSafetyDataArticle'));
+route('/breast-implant-long-term-studies/', lazyArticle(() => import('./data/articles/long-term-studies.js'), 'longTermStudiesArticle'));
+route('/emerging-research-in-breast-implant/', lazyArticle(() => import('./data/articles/emerging-research.js'), 'emergingResearchArticle'));
 
 // Patient Tools
 route('/patient-guides/', patientGuidesPage);

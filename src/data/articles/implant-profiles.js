@@ -4,8 +4,8 @@
 
 export const implantProfilesArticle = {
   title: 'Breast Implant Profiles: Low, Moderate, High, and Ultra-High Projection',
-  metaTitle: 'Breast Implant Profiles - Low vs Moderate vs High Profile | Breasts-Implants.com',
-  metaDescription: 'Learn what breast implant profile means, how projection and base width affect results, and how surgeons choose low, moderate, high, or ultra-high profile implants.',
+  metaTitle: "Breast Implant Profiles: Low, Moderate, High Profile",
+  metaDescription: "Understand breast implant profiles, projection, base width, low to high profile options, body-frame matching, and how surgeons choose. Includes key tips.",
   hubId: 'shapes-sizes',
   hubLabel: 'Shapes & Sizes',
   hubHref: '/shapes-and-sizes/',
