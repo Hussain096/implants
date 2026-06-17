@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Local planning/source spreadsheets
+implants Grouped sheet.csv
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
