@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // SPA fallback — all routes serve index.html
+  // SPA fallback: all routes serve index.html.
+  plugins: [],
   appType: 'spa',
   server: {
     host: '0.0.0.0',
