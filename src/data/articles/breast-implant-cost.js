@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Breast Implant Cost
 // ============================================
 
@@ -58,10 +58,10 @@ export const breastImplantCostArticle = {
       table: {
         headers: ['Implant Type', 'Implant Cost (pair)', 'Total Procedure Range'],
         rows: [
-          ['<strong>Saline</strong>', '$800–$1,200', '$5,000–$8,000'],
-          ['<strong>Silicone Gel</strong>', '$1,200–$2,000', '$6,000–$10,000'],
-          ['<strong>Gummy Bear (Form-Stable)</strong>', '$1,500–$2,500', '$6,500–$12,000'],
-          ['<strong>Structured Saline (IDEAL)</strong>', '$1,500–$2,000', '$7,000–$10,000'],
+          ['<strong><a href="/saline-breast-implants/">Saline</a></strong>', '$800–$1,200', '$5,000–$8,000'],
+          ['<strong><a href="/silicone-breast-implants/">Silicone Gel</a></strong>', '$1,200–$2,000', '$6,000–$10,000'],
+          ['<strong><a href="/gummy-bear-implants/">Gummy Bear</a> (Form-Stable)</strong>', '$1,500–$2,500', '$6,500–$12,000'],
+          ['<strong><a href="/structured-saline-implants/">Structured Saline</a> (IDEAL)</strong>', '$1,500–$2,000', '$7,000–$10,000'],
         ],
         caption: 'Cost comparison by implant type.',
       },
@@ -204,7 +204,7 @@ export const breastImplantCostArticle = {
     },
     {
       question: 'Can I pay for breast implants with insurance?',
-      answer: 'Cosmetic breast augmentation is almost never covered by insurance. However, breast reconstruction after mastectomy is federally mandated to be covered under the WHCRA. Some insurance plans may also cover reconstruction for documented congenital deformities or severe asymmetry.',
+      answer: 'Cosmetic breast augmentation is almost never covered by insurance. However, <a href="/breast-reconstruction/">breast reconstruction</a> after mastectomy is federally mandated to be covered under the WHCRA. Some insurance plans may also cover reconstruction for documented congenital deformities or severe asymmetry.',
     },
     {
       question: 'Are cheaper breast implants safe?',

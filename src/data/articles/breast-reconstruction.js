@@ -19,7 +19,7 @@ export const breastReconstructionArticle = {
     'Reconstruction can be immediate (performed during the same surgery as the mastectomy) or delayed (months or years later).',
     'Primary breast reconstruction options include implant-based reconstruction and autologous tissue (flap) reconstruction.',
     'Advanced flap methods like DIEP flap breast reconstruction use your own skin and fat, maintaining muscle integrity.',
-    'Federal law mandates health insurance coverage for reconstructive breast surgery after mastectomy under the WHCRA.',
+    'Federal law mandates health <a href="/insurance-coverage-for-breast-implants/">insurance coverage</a> for reconstructive breast surgery after mastectomy under the WHCRA.',
     'Breast reconstruction recovery varies significantly, from 2–4 weeks for implants to 6–8 weeks for major flap surgeries.',
   ],
 
@@ -41,11 +41,11 @@ export const breastReconstructionArticle = {
       subsections: [
         {
           heading: '1. Implant-Based Breast Reconstruction',
-          content: `<p><strong>Breast reconstruction with implants</strong> is the most common method in the US. It typically involves a two-stage process. First, the surgeon places a temporary balloon-like device called a tissue expander beneath the skin or chest muscle during the mastectomy. Over several weeks, saline is injected to gradually stretch the tissue. In a second minor surgery, the expander is replaced with a permanent saline or silicone gel breast implant. In some cases, immediate one-stage implant placement ("direct-to-implant") is possible.</p>`,
+          content: `<p><strong>Breast reconstruction with implants</strong> is the most common method in the US. It typically involves a two-stage process. First, the surgeon places a temporary balloon-like device called a tissue expander beneath the skin or chest muscle during the mastectomy. Over several weeks, saline is injected to gradually stretch the tissue. In a second minor surgery, the expander is replaced with a permanent <a href="/saline-vs-silicone-implants/">saline or silicone</a> gel breast implant. In some cases, immediate one-stage <a href="/breast-implant-placement/">implant placement</a> ("direct-to-implant") is possible.</p>`,
         },
         {
           heading: '2. Autologous (Flap) Breast Reconstruction',
-          content: `<p><strong>Flap breast reconstruction</strong> uses your own living tissue (skin, fat, and sometimes muscle) harvested from another part of your body (the abdomen, back, thighs, or buttocks) to create a new breast mound. Flap reconstruction results in breasts that look and feel very natural, age dynamically with the patient, and do not carry implant-related risks like rupture or capsular contracture.</p>`,
+          content: `<p><strong>Flap breast reconstruction</strong> uses your own living tissue (skin, fat, and sometimes muscle) harvested from another part of your body (the abdomen, back, thighs, or buttocks) to create a new breast mound. Flap reconstruction results in breasts that look and feel very natural, age dynamically with the patient, and do not carry implant-related risks like rupture or <a href="/capsular-contracture/">capsular contracture</a>.</p>`,
         },
       ],
     },
@@ -131,7 +131,7 @@ export const breastReconstructionArticle = {
   relatedArticles: [
     { title: 'Implant Placement Guide', desc: 'Over vs. under the pectoral muscle.', href: '/breast-implant-placement/', icon: '📐' },
     { title: 'Incision Types Guide', desc: 'Surgical entry points explained.', href: '/breast-implant-incision-types/', icon: '🏥' },
-    { title: 'Recovery Timeline', desc: 'Week-by-week post-op recovery details.', href: '/breast-augmentation-recovery-timeline/', icon: '📅' },
+    { title: '<a href="/breast-augmentation-recovery-timeline/">Recovery Timeline</a>', desc: 'Week-by-week post-op recovery details.', href: '/breast-augmentation-recovery-timeline/', icon: '📅' },
     { title: 'Breast Implant Cost', desc: 'Average cost and pricing factors.', href: '/breast-implant-cost/', icon: '💰' },
   ],
 };

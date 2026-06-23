@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Round vs. Teardrop Breast Implants
 // ============================================
 
@@ -37,7 +37,7 @@ export const roundVsTeardropArticle = {
       heading: 'What Are Round Implants?',
       content: `
         <p>Round implants are symmetrical. The top, bottom, left, and right sides have the same contour, so if the implant rotates inside the pocket, the breast shape does not change.</p>
-        <p>This is the main practical advantage of round implants. They are available in smooth and textured shells, many profiles, many volumes, and most major implant lines. In modern cosmetic breast augmentation, smooth round implants are often the default starting point.</p>
+        <p>This is the main practical advantage of round implants. They are available in smooth and textured shells, many profiles, many volumes, and most major implant lines. In modern cosmetic <a href="/breast-augmentation-surgery/">breast augmentation</a>, smooth round implants are often the default starting point.</p>
       `,
       subsections: [
         {
@@ -45,7 +45,7 @@ export const roundVsTeardropArticle = {
           list: [
             '<strong>No visible rotation problem:</strong> A round implant has no top or bottom orientation.',
             '<strong>More upper-pole fullness:</strong> Round implants can create a fuller upper breast, especially in higher profiles.',
-            '<strong>Softer options:</strong> Many smooth round silicone implants feel soft and natural under adequate tissue coverage.',
+            '<strong>Softer options:</strong> Many smooth round <a href="/silicone-breast-implants/">silicone implant</a>s feel soft and natural under adequate tissue coverage.',
             '<strong>Broad availability:</strong> More brands, sizes, projections, and gel cohesiveness options are available.',
             '<strong>Often lower risk trade-off:</strong> Smooth round implants avoid the texture requirement usually associated with anatomical implants.',
           ],
@@ -80,7 +80,7 @@ export const roundVsTeardropArticle = {
           heading: 'Important Limitations',
           list: [
             '<strong>Rotation risk:</strong> If the implant turns, the shape can look abnormal.',
-            '<strong>Textured shell concern:</strong> Many anatomical implants rely on texture, which has been associated with BIA-ALCL risk.',
+            '<strong>Textured shell concern:</strong> Many anatomical implants rely on texture, which has been associated with <a href="/bia-alcl/">BIA-ALCL</a> risk.',
             '<strong>Firmer feel:</strong> Shaped implants often use more cohesive gel to hold their form.',
             '<strong>Fewer choices:</strong> There are usually fewer combinations of size, width, height, and projection.',
           ],
@@ -123,7 +123,7 @@ export const roundVsTeardropArticle = {
             'Implant width matches your natural breast footprint.',
             'Volume is appropriate for your tissue envelope.',
             'Placement provides enough soft-tissue coverage.',
-            'Profile is not too projecting for your frame.',
+            '<a href="/breast-implant-profiles/">Profile</a> is not too projecting for your frame.',
             'The surgeon creates a precise pocket that centers the implant properly.',
           ],
         },

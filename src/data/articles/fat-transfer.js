@@ -19,7 +19,7 @@ export const fatTransferArticle = {
     'It provides the most natural-looking and natural-feeling result — because it IS your own tissue.',
     'Results are limited to approximately 1–1.5 cup size increase per session.',
     'Not all transferred fat survives — typically 50–80% of fat volume is retained long-term.',
-    'No implant-related risks (no rupture, capsular contracture, or device-specific complications).',
+    'No implant-related risks (no rupture, <a href="/capsular-contracture/">capsular contracture</a>, or device-specific complications).',
     'Cost is typically $6,000–$15,000 — comparable to or higher than implant augmentation.',
   ],
 
@@ -120,7 +120,7 @@ export const fatTransferArticle = {
     },
     {
       heading: 'Risks of Fat Transfer Breast Augmentation',
-      content: `<p>While fat grafting avoids implant-specific risks (like capsular contracture or shell rupture), understanding the potential clinical <strong>risks of fat transfer breast augmentation</strong> is vital for making an informed choice:</p>`,
+      content: `<p>While fat grafting avoids implant-specific risks (like capsular contracture or <a href="/breast-implant-rupture/">shell rupture</a>), understanding the potential clinical <strong>risks of fat transfer breast augmentation</strong> is vital for making an informed choice:</p>`,
       subsections: [
         {
           heading: 'Potential Risks',
@@ -135,7 +135,7 @@ export const fatTransferArticle = {
         },
         {
           heading: 'Fat Transfer for Breast Lift',
-          content: `<p>For patients experiencing minor sagging and volume depletion, combining a <strong>mastopexy with fat transfer</strong> (also called a <strong>fat transfer for breast lift</strong>) can yield excellent results. The surgical lift removes excess skin and elevates the breast, while the autologous fat injection restores youthful fullness to the upper pole, all without the need for artificial implants.</p>`,
+          content: `<p>For patients experiencing minor sagging and volume depletion, combining a <strong>mastopexy with fat transfer</strong> (also called a <strong>fat transfer for <a href="/breast-lift/">breast lift</a></strong>) can yield excellent results. The surgical lift removes excess skin and elevates the breast, while the autologous fat injection restores youthful fullness to the upper pole, all without the need for artificial implants.</p>`,
         },
       ],
     },
@@ -169,7 +169,7 @@ export const fatTransferArticle = {
     },
     {
       question: 'Is fat transfer safer than implants?',
-      answer: 'Fat transfer avoids implant-specific risks (rupture, capsular contracture, BIA-ALCL). However, it carries its own risks including fat necrosis, calcifications, and the risks of liposuction. Neither approach is universally "safer" — they have different risk profiles.',
+      answer: 'Fat transfer avoids implant-specific risks (rupture, capsular contracture, <a href="/bia-alcl/">BIA-ALCL</a>). However, it carries its own risks including fat necrosis, calcifications, and the risks of liposuction. Neither approach is universally "safer" — they have different risk profiles.',
     },
     {
       question: 'Where can I find fat transfer breast augmentation near me?',

@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Saline Breast Implants
 // ============================================
 
@@ -53,7 +53,7 @@ export const salineArticle = {
     {
       heading: 'FDA Approval and Age Requirements',
       content: `
-        <p>Saline breast implants are <strong>FDA-approved for breast augmentation in women 18 years and older</strong> — the lowest minimum age of any implant type. For comparison, silicone gel implants require patients to be at least 22 for augmentation.</p>
+        <p>Saline breast implants are <strong>FDA-approved for breast augmentation in women 18 years and older</strong> — the lowest minimum age of any implant type. For comparison, <a href="/silicone-breast-implants/">silicone breast implants</a> require patients to be at least 22 for augmentation.</p>
         <p>Both saline and silicone implants are approved at any adult age for breast reconstruction following mastectomy or other medical conditions.</p>
       `,
       callout: {
@@ -128,14 +128,14 @@ export const salineArticle = {
         },
         {
           heading: 'Side Effects and Risks',
-          content: `<p>The potential <strong>side effects of saline implants</strong> are similar to other breast surgery procedures. These include temporary breast pain, swelling, bruising, and temporary changes in nipple sensation. More significant risks include capsular contracture, implant displacement, or deflation requiring a revision procedure. There is also a small risk of wrinkling or rippling that can be felt through the skin.</p>`,
+          content: `<p>The potential <strong>side effects of saline implants</strong> are similar to other breast surgery procedures. These include temporary breast pain, swelling, bruising, and temporary changes in nipple sensation. More significant risks include <a href="/capsular-contracture/">capsular contracture</a>, implant displacement, or deflation requiring a revision procedure. There is also a small risk of wrinkling or rippling that can be felt through the skin.</p>`,
         },
       ],
     },
     {
       heading: 'Cost of Saline Breast Implants',
       content: `
-        <p>Saline implants are generally the <strong>most affordable breast implant option</strong>. However, the implant itself is only one component of the total procedure cost.</p>
+        <p>Saline implants are generally the <strong>most affordable breast implant option</strong>. However, the implant itself is only one component of the total <a href="/breast-implant-cost/">breast implant cost</a>.</p>
       `,
       table: {
         headers: ['Cost Component', 'Typical Range'],
@@ -166,11 +166,11 @@ export const salineArticle = {
         },
         {
           heading: 'Shape and Profile',
-          content: `<p>Virtually all standard saline options are <strong>round saline breast implants</strong>, available in multiple profiles (low, moderate, moderate-plus, and high). The profile determines how much the implant projects forward relative to its base width. Higher profile equals more projection from a narrower base.</p>`,
+          content: `<p>Virtually all standard saline options are <strong>round saline breast implants</strong>, available in multiple profiles (low, moderate, moderate-plus, and high). The profile determines how much the implant projects forward relative to its base width. <a href="/breast-implant-profiles/">High profile implants</a> provide more projection from a narrower base.</p>`,
         },
         {
           heading: 'Surface Texture',
-          content: `<p>Saline implants are available with smooth or textured shells. <strong>Smooth shells</strong> are the most common choice today, partly due to the association between textured surfaces and BIA-ALCL (a rare lymphoma). Discuss surface texture options and their implications with your surgeon.</p>`,
+          content: `<p>Saline implants are available with smooth or textured shells. <strong>Smooth shells</strong> are the most common choice today, partly due to the association between textured surfaces and <a href="/bia-alcl/">BIA-ALCL</a> (a rare lymphoma). Discuss surface texture options and their implications with your surgeon.</p>`,
         },
       ],
     },

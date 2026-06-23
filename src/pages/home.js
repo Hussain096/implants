@@ -420,7 +420,7 @@ export function homePage() {
 
   return {
     html,
-    title: 'Breast Implants Guide — Evidence-Based Patient Education | Breasts-Implants.com',
+    title: 'Breast Implants Guide — Evidence-Based Patient Education',
     description: 'Comprehensive, medically reviewed guide to breast implants. Compare saline vs silicone, understand risks, costs, procedure steps, and recovery.',
     schema: [
       organizationSchema(),

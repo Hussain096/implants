@@ -29,7 +29,7 @@ export const financingOptionsArticle = {
     {
       heading: 'Understanding the Investment',
       content: `
-        <p>Breast augmentation typically costs <strong>$6,000–$12,000 all-inclusive</strong> in the United States. Since cosmetic surgery is almost never covered by insurance, most patients need a plan to manage this expense. The good news: multiple legitimate financing options exist.</p>
+        <p>Breast augmentation <a href="/breast-implant-cost/">typically costs</a> <strong>$6,000–$12,000 all-inclusive</strong> in the United States. Since cosmetic surgery is almost never covered by insurance, most patients need a plan to manage this expense. The good news: multiple legitimate financing options exist.</p>
         <p>Before exploring financing, it's wise to get full, itemized quotes from at least 2–3 board-certified surgeons so you understand the total cost, not just the surgeon's fee.</p>
       `,
     },
@@ -114,7 +114,7 @@ export const financingOptionsArticle = {
       subsections: [
         {
           heading: 'HSA & FSA Funds',
-          content: `<p>Health Savings Accounts (HSA) and Flexible Spending Accounts (FSA) generally <strong>cannot</strong> be used for cosmetic breast augmentation. However, they <strong>can</strong> be used for breast reconstruction after mastectomy, correction of congenital deformities, or other medically necessary breast procedures. Always verify with your plan administrator.</p>`,
+          content: `<p>Health Savings Accounts (HSA) and Flexible Spending Accounts (FSA) generally <strong>cannot</strong> be used for cosmetic breast augmentation. However, they <strong>can</strong> be used for <a href="/breast-reconstruction/">breast reconstruction</a> after mastectomy, correction of congenital deformities, or other medically necessary breast procedures. Always verify with your plan administrator.</p>`,
         },
         {
           heading: 'Home Equity Line of Credit (HELOC)',
@@ -148,7 +148,7 @@ export const financingOptionsArticle = {
   faqs: [
     {
       question: 'Can I use insurance to pay for breast augmentation?',
-      answer: 'Cosmetic breast augmentation is not covered by health insurance. However, insurance may cover breast reconstruction after mastectomy (mandated by the Women\'s Health and Cancer Rights Act), correction of significant congenital asymmetry, or breast implant removal for medical complications. Check with your insurance provider for specific coverage details.',
+      answer: 'Cosmetic breast augmentation is not covered by health insurance. However, <a href="/insurance-coverage-for-breast-implants/">insurance may cover</a> breast reconstruction after mastectomy (mandated by the Women\'s Health and Cancer Rights Act), correction of significant congenital asymmetry, or breast <a href="/breast-implant-removal/">implant removal</a> for medical complications. Check with your insurance provider for specific coverage details.',
     },
     {
       question: 'What credit score do I need for CareCredit?',

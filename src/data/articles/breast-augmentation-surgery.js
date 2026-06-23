@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Breast Augmentation Surgery
 // ============================================
 
@@ -23,7 +23,7 @@ export const breastAugmentationSurgeryArticle = {
     'The FDA requires that patients receive a Patient Decision Checklist before surgery — review this document carefully.',
   ],
 
-  safetyNote: 'Breast augmentation is real surgery with real risks. Ensure your surgeon is board-certified by the American Board of Plastic Surgery (ABPS) and that the surgical facility is accredited. Never choose a surgeon based on price alone.',
+  safetyNote: 'Breast augmentation is real surgery with real risks. Ensure your surgeon is board-certified by the American Board of Plastic Surgery (ABPS) and that the surgical facility is accredited. Use our <a href="/choosing-surgeon/">choosing a surgeon</a> guide to verify credentials. Never choose a surgeon based on price alone.',
 
   sections: [
     {
@@ -54,10 +54,10 @@ export const breastAugmentationSurgeryArticle = {
           heading: 'Implant Selection',
           content: `<p>During the consultation, you'll discuss and typically decide on:</p>`,
           list: [
-            '<strong>Implant type:</strong> Saline, silicone gel, gummy bear, or structured saline.',
+            '<strong>Implant type:</strong> <a href="/saline-vs-silicone-implants/">Saline, silicone gel</a>, gummy bear, or <a href="/structured-saline-implants/">structured saline</a>.',
             '<strong>Size (CC volume):</strong> Using sizers, 3D imaging, or the "rice test" to visualize results.',
             '<strong>Shape:</strong> Round vs. anatomical (teardrop) — round is more common and forgiving.',
-            '<strong>Profile:</strong> Low, moderate, moderate-plus, or high — determines forward projection relative to base width.',
+            '<strong>Profile:</strong> Low, moderate, moderate-plus, or high — determines forward <a href="/breast-implant-profiles/">projection</a> relative to base width.',
             '<strong>Surface:</strong> Smooth (standard) vs. textured — smooth is most common since the BIOCELL recall.',
           ],
         },

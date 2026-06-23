@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Allergan / Natrelle
 // ============================================
 
@@ -41,7 +41,7 @@ export const allerganArticle = {
           list: [
             '<strong>SoftTouch (SCF):</strong> Lowest cohesivity — softest feel, most natural movement. Best for patients prioritizing a natural breast-like feel.',
             '<strong>Responsive (SRF):</strong> Medium cohesivity — balances softness with shape retention. The most versatile option.',
-            '<strong>Cohesive (SCX):</strong> Highest cohesivity — firmest gel, best shape stability. Closest to "gummy bear" in the Natrelle line.',
+            '<strong>Cohesive (SCX):</strong> Highest cohesivity — firmest gel, best shape stability. Closest to "<a href="/gummy-bear-implants/">gummy bear implants</a>" in the Natrelle line.',
           ],
         },
         {
@@ -56,7 +56,7 @@ export const allerganArticle = {
         },
         {
           heading: 'Natrelle Saline',
-          content: `<p>Allergan also offers saline-filled breast implants, available in smooth round configurations with moderate and high profiles. Saline implants are FDA-approved for patients 18 and older.</p>`,
+          content: `<p>Allergan also offers <a href="/saline-breast-implants/">saline breast implants</a>, available in smooth round configurations with moderate and high profiles. Saline implants are FDA-approved for patients 18 and older.</p>`,
         },
       ],
     },
@@ -103,7 +103,7 @@ export const allerganArticle = {
       table: {
         headers: ['Study', 'Duration', 'Key Findings'],
         rows: [
-          ['<strong>Core Study</strong>', '10 years', 'Capsular contracture rate: 8.8% (augmentation); Reoperation rate: 24.2%'],
+          ['<strong>Core Study</strong>', '10 years', '<a href="/capsular-contracture/">Capsular contracture</a> rate: 8.8% (augmentation); Reoperation rate: 24.2%'],
           ['<strong>TOPS Study</strong>', '10 years', 'Inspira-specific data; generally lower complication rates than earlier generations'],
           ['<strong>Post-Approval (PAS)</strong>', 'Ongoing', 'FDA-required long-term surveillance data'],
         ],
@@ -115,8 +115,8 @@ export const allerganArticle = {
       content: `<p>In the competitive landscape:</p>`,
       list: [
         '<strong>vs. Mentor:</strong> Comparable quality — Allergan offers more cohesivity options (three vs. two) and more profiles. Mentor has a slightly different gel feel.',
-        '<strong>vs. Sientra:</strong> Allergan has broader market access (not restricted to board-certified plastic surgeons). Sientra positions itself as a premium niche brand.',
-        '<strong>vs. Motiva:</strong> Allergan has more long-term US data. Motiva is newer with innovative surface technology but less track record in the US market.',
+        '<strong>vs. <a href="/sientra/">Sientra</a>:</strong> Allergan has broader market access (not restricted to board-certified plastic surgeons). Sientra positions itself as a premium niche brand.',
+        '<strong>vs. <a href="/motiva/">Motiva</a>:</strong> Allergan has more long-term US data. Motiva is newer with innovative surface technology but less track record in the US market.',
         '<strong>Market position:</strong> Largest US market share, most widely available, most extensively studied.',
       ],
     },

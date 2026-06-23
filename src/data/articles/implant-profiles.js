@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Breast Implant Profiles
 // ============================================
 
@@ -23,14 +23,14 @@ export const implantProfilesArticle = {
     'The right profile is the one that fits your breast footprint and produces the amount of projection you want without overloading your tissues.',
   ],
 
-  safetyNote: 'Choosing a profile that is too wide, too projecting, or too large for your tissue can increase the chance of visible edges, rippling, malposition, and revision surgery. Final sizing should be done with a qualified surgeon.',
+  safetyNote: 'Choosing a profile that is too wide, too projecting, or too large for your tissue can increase the chance of visible edges, rippling, malposition, and <a href="/breast-implant-removal/">revision surgery</a>. Final sizing should be done with a qualified surgeon.',
 
   sections: [
     {
       heading: 'What Does Implant Profile Mean?',
       content: `
         <p>Profile is the relationship between an implant's <strong>base width</strong> and its <strong>projection</strong>. Base width is how wide the implant is across your chest. Projection is how far the implant comes forward from the chest wall.</p>
-        <p>For the same volume, profile changes the shape of the implant. A low-profile 350cc implant is wider and flatter. A high-profile 350cc implant is narrower and more projecting. That difference can completely change how the same cc volume looks on your body.</p>
+        <p>For the same volume, profile changes the shape of the implant. A low-profile 350cc implant is wider and flatter. A <a href="/round-vs-teardrop-implants/">high-profile 350cc implant</a> is narrower and more projecting. That difference can completely change how the same cc volume looks on your body.</p>
       `,
     },
     {
@@ -139,7 +139,7 @@ export const implantProfilesArticle = {
       heading: 'Same CC, Different Profile',
       content: `
         <p>One of the most useful consultation lessons is that cc volume alone does not predict appearance. A 325cc moderate profile implant may look wider and softer, while a 325cc high profile implant may look narrower and more projected.</p>
-        <p>This is why comparing your desired cc number to another person's result can be misleading. Their chest width, implant profile, placement, and starting tissue may be completely different from yours.</p>
+        <p>This is why comparing your desired cc number to another person's result can be misleading. Their chest width, implant profile, placement, and starting tissue may be completely different from yours. Use our <a href="/breast-implants-cc-size-chart/">CC size chart</a> to understand how volume maps to <a href="/breast-implants-cc-size-chart/">cup size</a>.</p>
       `,
       table: {
         headers: ['Same Volume Example', 'Likely Visual Effect'],

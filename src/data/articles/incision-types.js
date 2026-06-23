@@ -16,7 +16,7 @@ export const incisionTypesArticle = {
 
   keyTakeaways: [
     'The inframammary fold incision is the most popular (~70%) and preferred by most surgeons for control and visibility.',
-    'Periareolar incisions hide well but carry slightly higher capsular contracture risk due to breast duct proximity.',
+    'Periareolar incisions hide well but carry slightly higher <a href="/capsular-contracture/">capsular contracture</a> risk due to breast duct proximity.',
     'Transaxillary (armpit) incisions leave no scar on the breast but offer less surgical control.',
     'The incision choice affects scar location, implant placement precision, and complication risk.',
     'Incision length depends on implant type: saline needs smaller (3cm), silicone needs larger (4–5cm).',
@@ -37,7 +37,7 @@ export const incisionTypesArticle = {
         rows: [
           ['<strong>Inframammary</strong>', 'In the breast crease', '~70%', 'Most implant types; best surgical access'],
           ['<strong>Periareolar</strong>', 'Around the lower edge of the areola', '~20%', 'Patients wanting hidden scar; combination procedures'],
-          ['<strong>Transaxillary</strong>', 'In the armpit', '~8%', 'No breast scar; saline implants'],
+          ['<strong>Transaxillary</strong>', 'In the armpit', '~8%', 'No breast scar; <a href="/saline-breast-implants/">saline implant</a>s'],
           ['<strong>Transumbilical (TUBA)</strong>', 'Through the belly button', '~2%', 'Saline only; rarely performed today'],
         ],
         caption: 'Overview of breast augmentation incision types.',
@@ -53,7 +53,7 @@ export const incisionTypesArticle = {
           heading: 'Advantages',
           list: [
             '<strong>Best surgical access:</strong> Direct visualization of the pocket for precise placement.',
-            '<strong>All implant types:</strong> Works with saline, silicone, gummy bear, and structured saline.',
+            '<strong>All implant types:</strong> Works with saline, silicone, gummy bear, and <a href="/structured-saline-implants/">structured saline</a>.',
             '<strong>Lowest capsular contracture risk:</strong> Avoids breast duct contamination.',
             '<strong>Compatible with 14-point plan:</strong> Optimal for evidence-based prevention protocols.',
             '<strong>Easy revision:</strong> If future surgery is needed, the same incision can be used.',
@@ -120,7 +120,7 @@ export const incisionTypesArticle = {
           list: [
             '<strong>Limited access:</strong> Surgeons have less direct visualization of the pocket.',
             '<strong>Endoscope often needed:</strong> Many surgeons use endoscopic assistance for adequate visualization.',
-            '<strong>Difficult with large silicone:</strong> Pre-filled silicone implants may be difficult to place through this approach.',
+            '<strong>Difficult with large silicone:</strong> Pre-filled <a href="/silicone-breast-implants/">silicone implant</a>s may be difficult to place through this approach.',
             '<strong>Revision complexity:</strong> Future revision may require a different incision site.',
             '<strong>Fewer surgeons experienced:</strong> Not all surgeons are trained in this technique.',
             '<strong>Asymmetry risk:</strong> Slightly higher risk of pocket placement imprecision.',

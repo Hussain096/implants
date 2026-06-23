@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Breast Implant Rupture
 // ============================================
 
@@ -52,7 +52,7 @@ export const ruptureArticle = {
     {
       heading: 'Saline Implant Rupture (Deflation)',
       content: `
-        <p>When a saline implant ruptures, the <strong>sterile saltwater leaks out through the shell breach</strong> and is naturally absorbed by your body — the same way your body processes any IV saline. The affected breast will visibly decrease in size, usually within 24–48 hours.</p>
+        <p>When a <a href="/saline-breast-implants/">saline implant</a> ruptures, the <strong>sterile saltwater leaks out through the shell breach</strong> and is naturally absorbed by your body — the same way your body processes any IV saline. The affected breast will visibly decrease in size, usually within 24–48 hours.</p>
         <p>This is actually a significant safety advantage of saline implants: you know immediately when something is wrong.</p>
       `,
       subsections: [
@@ -70,7 +70,7 @@ export const ruptureArticle = {
     {
       heading: 'Silicone Implant Rupture (Silent Rupture)',
       content: `
-        <p><strong>"Silent rupture"</strong> is the hallmark concern of silicone gel implants. Because the cohesive gel tends to stay within or around the scar tissue capsule, there may be <strong>no visible or palpable change</strong> even after the shell has failed.</p>
+        <p><strong>"Silent rupture"</strong> is the hallmark concern of <a href="/silicone-breast-implants/">silicone breast implants</a>. Because the cohesive gel tends to stay within or around the scar tissue capsule, there may be <strong>no visible or palpable change</strong> even after the shell has failed.</p>
       `,
       subsections: [
         {
@@ -125,7 +125,7 @@ export const ruptureArticle = {
         rows: [
           ['<strong>Saline (modern)</strong>', '3–5%', '7–10%', '15–20%'],
           ['<strong>Silicone Gel (5th gen)</strong>', '2–5%', '8–17%', '15–25%'],
-          ['<strong>Gummy Bear (form-stable)</strong>', '1–3%', '5–10%', 'Limited data'],
+          ['<strong><a href="/gummy-bear-implants/">Gummy Bear</a> (form-stable)</strong>', '1–3%', '5–10%', 'Limited data'],
           ['<strong>Structured Saline</strong>', '1–3%', 'Limited data', 'Limited data'],
         ],
         caption: 'Approximate rupture rates by implant type (based on manufacturer data and post-approval studies). Rates increase with implant age.',
@@ -138,7 +138,7 @@ export const ruptureArticle = {
         {
           heading: 'Standard Treatment',
           list: [
-            '<strong>Implant removal:</strong> The ruptured implant is surgically removed.',
+            '<strong><a href="/breast-implant-removal/">Implant removal</a>:</strong> The ruptured implant is surgically removed.',
             '<strong>Capsulectomy:</strong> The surrounding scar tissue capsule is typically removed, especially for silicone rupture (to remove any escaped gel).',
             '<strong>Replacement:</strong> Most patients choose to have a new implant placed during the same surgery.',
             '<strong>No replacement:</strong> Some patients opt not to replace the implant (explantation). A breast lift may be recommended to address loose skin.',

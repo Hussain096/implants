@@ -29,7 +29,7 @@ export const choosingSurgeonArticle = {
     {
       heading: 'Why Your Surgeon Matters More Than Anything Else',
       content: `
-        <p>In breast augmentation, your surgeon's skill, experience, and judgment affect every aspect of your outcome — from implant selection and placement to complication prevention and aesthetic result. The same implant can produce dramatically different results in different surgeons' hands.</p>
+        <p>In breast augmentation, your surgeon's skill, experience, and judgment affect every aspect of your outcome — from <a href="/breast-implant-placement/">implant selection and placement</a> to <a href="/breast-implants-risks-and-complications/">complication prevention</a> and aesthetic result. The same implant can produce dramatically different results in different surgeons' hands.</p>
         <p>Investing time in choosing the right surgeon is the most important step in your augmentation journey.</p>
       `,
     },
@@ -120,7 +120,7 @@ export const choosingSurgeonArticle = {
           list: [
             '<strong>Pressure tactics:</strong> "This price is only available today" or "We have a cancellation next week."',
             '<strong>Minimizing risks:</strong> "There are basically no risks with this procedure."',
-            '<strong>No physical exam:</strong> Recommending implant size without examining you.',
+            '<strong>No physical exam:</strong> Recommending <a href="/breast-implants-cc-size-chart/">implant size</a> without examining you.',
             '<strong>Cookie-cutter approach:</strong> Same implant recommendation for every patient.',
             '<strong>Coordinator-only consult:</strong> You never see or speak with the actual surgeon.',
             '<strong>Refusing to discuss complications:</strong> A surgeon who won\'t discuss risks is a surgeon to avoid.',
@@ -181,7 +181,7 @@ export const choosingSurgeonArticle = {
     },
     {
       question: 'What if I can\'t afford a board-certified plastic surgeon?',
-      answer: 'If cost is a barrier, consider saving longer rather than choosing a less qualified provider. Many board-certified surgeons offer financing options, and the price range varies significantly by location. Traveling to a lower-cost market (with an equally qualified surgeon) is a safer strategy than choosing an unqualified provider locally. Your safety and outcome quality should never be compromised for cost savings.',
+      answer: 'If cost is a barrier, consider saving longer rather than choosing a less qualified provider. Many board-certified surgeons offer <a href="/breast-implant-financing-options/">financing option</a>s, and the price range varies significantly by location. Traveling to a lower-cost market (with an equally qualified surgeon) is a safer strategy than choosing an unqualified provider locally. Your safety and outcome quality should never be compromised for cost savings.',
     },
   ],
 

@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Breast Augmentation Recovery Timeline
 // ============================================
 
@@ -18,8 +18,8 @@ export const recoveryTimelineArticle = {
     'Most patients experience peak discomfort during the first 3–5 days, manageable with prescribed medication.',
     'Return to desk work is typical at 1–2 weeks; full activity resumes at 6 weeks.',
     'The "drop and fluff" process (implants settling into final position) takes 3–6 months.',
-    'Submuscular placement typically involves more initial discomfort but may have better long-term results.',
-    'Follow your surgeon\'s specific instructions — they override any general timeline.',
+    '<a href="/breast-implant-placement/">Submuscular placement</a> typically involves more initial discomfort but may have better long-term results.',
+    'Follow your <a href="/choosing-surgeon/">surgeon\'s</a> specific instructions — they override any general timeline.',
     'Contact your surgeon immediately if you experience sudden swelling, high fever, or severe pain.',
   ],
 
@@ -30,7 +30,7 @@ export const recoveryTimelineArticle = {
       heading: 'What to Expect: Recovery Overview',
       content: `
         <p><strong>Breast augmentation recovery</strong> is more predictable than many patients expect. Whether you call it <strong>boob job recovery</strong> or <strong>breast surgery recovery time</strong>, the key phases are the same. Most patients are surprised by how quickly they feel better after the initial few days of rest and pain management.</p>
-        <p>The question <strong>how long for breast implants to heal</strong> depends largely on <strong>implant placement</strong> — submuscular (under the muscle) placement involves more initial soreness because the pectoral muscle is stretched, while subglandular (over the muscle) placement typically has an easier early recovery. Full healing takes 3–6 months before final results are visible.</p>
+        <p>The question <strong>how long for breast implants to heal</strong> depends largely on <strong><a href="/breast-implant-placement/">implant placement</a></strong> — submuscular (under the muscle) placement involves more initial soreness because the pectoral muscle is stretched, while subglandular (over the muscle) placement typically has an easier early recovery. Full healing takes 3–6 months before final results are visible.</p>
       `,
     },
     {
@@ -78,7 +78,7 @@ export const recoveryTimelineArticle = {
           list: [
             '<strong>Soreness and tightness:</strong> Especially with submuscular placement. Feels like an intense chest workout.',
             '<strong>Swelling:</strong> Breasts will look high, tight, and swollen. This is normal.',
-            '<strong>Bruising:</strong> Some bruising is common, especially along the incision areas.',
+            '<strong>Bruising:</strong> Some bruising is common, especially along the <a href="/breast-implant-incision-types/">incision areas</a>.',
             '<strong>Limited arm mobility:</strong> Reaching overhead will be difficult and should be avoided.',
             '<strong>Fatigue:</strong> Anesthesia and pain medication cause drowsiness.',
             '<strong>Nausea:</strong> Common side effect of anesthesia — usually resolves within 24 hours.',

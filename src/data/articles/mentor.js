@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Mentor Breast Implants
 // ============================================
 
@@ -40,7 +40,7 @@ export const mentorArticle = {
           content: `<p>Mentor's primary silicone gel implant line, featuring a smooth shell with cohesive silicone gel fill:</p>`,
           list: [
             '<strong>MemoryGel Classic:</strong> Standard cohesive gel — the traditional Mentor silicone implant with a soft, natural feel.',
-            '<strong>MemoryGel Xtra:</strong> Higher cohesivity for enhanced shape retention while maintaining a soft touch. Introduced as a response to demand for more form-stable options.',
+            '<strong>MemoryGel Xtra:</strong> Higher cohesivity for enhanced shape retention while maintaining a soft touch. Introduced as a response to demand for more form-stable options — similar to <a href="/gummy-bear-implants/">gummy bear implants</a>.',
           ],
         },
         {
@@ -58,12 +58,12 @@ export const mentorArticle = {
             'Highly cohesive gel that maintains its teardrop shape even if the shell is compromised.',
             'Siltex textured surface to prevent rotation (required for anatomical shape maintenance).',
             'Available in multiple height and projection combinations.',
-            '<strong>Note:</strong> Due to BIA-ALCL concerns with textured surfaces, usage has decreased since 2019 — discuss the risk-benefit profile with your surgeon.',
+            '<strong>Note:</strong> Due to <a href="/bia-alcl/">BIA-ALCL</a> concerns with textured surfaces, usage has decreased since 2019 — discuss the risk-benefit profile with your surgeon.',
           ],
         },
         {
           heading: 'Mentor Saline',
-          content: `<p>Smooth round saline implants with moderate and high profile options. Filled intraoperatively to allow fine-tuning of volume. FDA-approved for patients 18 and older.</p>`,
+          content: `<p>Smooth round <a href="/saline-breast-implants/">saline implants</a> with moderate and high profile options. Filled intraoperatively to allow fine-tuning of volume. FDA-approved for patients 18 and older.</p>`,
         },
       ],
     },
@@ -100,9 +100,9 @@ export const mentorArticle = {
         {
           heading: 'Core Study (10-Year Results)',
           list: [
-            '<strong>Capsular contracture:</strong> ~12.1% (Baker III/IV) for augmentation patients at 10 years.',
+            '<strong><a href="/capsular-contracture/">Capsular contracture</a>:</strong> ~12.1% (Baker III/IV) for augmentation patients at 10 years.',
             '<strong>Reoperation:</strong> ~26.3% for augmentation patients (any reason, including elective size change).',
-            '<strong>Rupture:</strong> ~13.3% at 10 years by MRI (many of these are "silent ruptures" without symptoms).',
+            '<strong><a href="/breast-implant-rupture/">Rupture</a>:</strong> ~13.3% at 10 years by MRI (many of these are "silent ruptures" without symptoms).',
             '<strong>Infection:</strong> ~1.1% at 10 years.',
             '<strong>Overall satisfaction:</strong> ~97% of augmentation patients reported satisfaction with their implants.',
           ],

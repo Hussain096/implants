@@ -18,7 +18,7 @@ export const fdaSafetyDataArticle = {
     'The FDA requires ongoing post-approval studies (PAS) from all breast implant manufacturers to track long-term safety.',
     'MAUDE (Manufacturer and User Facility Device Experience) is the FDA\'s adverse event reporting database — it tracks complications reported by patients, surgeons, and manufacturers.',
     'FDA post-approval data shows approximately 20–25% of primary augmentation patients require reoperation within 10 years.',
-    'Capsular contracture (8–15%), reoperation, and implant rupture are the most commonly reported complications in FDA data.',
+    'Capsular contracture (8–15%), reoperation, and <a href="/breast-implant-rupture/">implant rupture</a> are the most commonly reported complications in FDA data.',
     'In 2019, the FDA mandated a new Breast Implant Patient Decision Checklist and boxed warning for all breast implant labeling.',
     'FDA data should be interpreted carefully — reporting rates don\'t equal true incidence rates, and study designs vary by manufacturer.',
   ],
@@ -96,10 +96,10 @@ export const fdaSafetyDataArticle = {
       table: {
         headers: ['Year', 'Communication', 'Key Action'],
         rows: [
-          ['<strong>1992</strong>', 'Silicone gel moratorium', 'FDA restricted silicone gel implants to clinical studies due to safety concerns'],
+          ['<strong>1992</strong>', 'Silicone gel moratorium', 'FDA restricted <a href="/silicone-breast-implants/">silicone gel implant</a>s to clinical studies due to safety concerns'],
           ['<strong>2006</strong>', 'Silicone gel re-approval', 'FDA approved silicone gel implants (Allergan, Mentor) after extensive review of clinical data'],
           ['<strong>2011</strong>', 'MRI screening recommendation', 'FDA recommended MRI screening for silicone implant rupture at 3 years, then every 2 years'],
-          ['<strong>2019</strong>', 'BIOCELL textured recall', 'FDA requested Allergan recall all BIOCELL textured products due to BIA-ALCL'],
+          ['<strong>2019</strong>', 'BIOCELL textured recall', 'FDA requested Allergan recall all BIOCELL textured products due to <a href="/bia-alcl/">BIA-ALCL</a>'],
           ['<strong>2019</strong>', 'Boxed warning + Patient Checklist', 'FDA mandated boxed warning on all breast implant labeling and a new Patient Decision Checklist'],
           ['<strong>2020</strong>', 'Updated MRI recommendation', 'FDA updated screening to recommend initial imaging at 5–6 years, then every 2–3 years'],
           ['<strong>2021</strong>', 'BIA-ALCL letter to providers', 'FDA updated provider recommendations for monitoring and diagnosis of BIA-ALCL'],
@@ -114,7 +114,7 @@ export const fdaSafetyDataArticle = {
       `,
       list: [
         'Breast implants are not lifetime devices — reoperation is likely at some point.',
-        'Possible complications including capsular contracture, rupture, BIA-ALCL, BII, infection, and pain.',
+        'Possible complications including <a href="/capsular-contracture/">capsular contracture</a>, rupture, BIA-ALCL, BII, infection, and pain.',
         'The importance of long-term monitoring including imaging to detect silent rupture.',
         'BIA-ALCL risk and its association with textured implants.',
         'Reports of systemic symptoms (Breast Implant Illness) and the current state of research.',

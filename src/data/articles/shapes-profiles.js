@@ -34,7 +34,7 @@ export const shapesProfilesArticle = {
     {
       heading: 'Round Implants',
       content: `
-        <p>Round implants are the most widely used shape, chosen for approximately <strong>95% of breast augmentations</strong>. They are perfectly symmetrical — the same shape regardless of orientation — which eliminates any concern about rotation.</p>
+        <p>Round implants are the most widely used shape, chosen for approximately <strong>95% of <a href="/breast-augmentation-surgery/">breast augmentation</a>s</strong>. They are perfectly symmetrical — the same shape regardless of orientation — which eliminates any concern about rotation.</p>
       `,
       subsections: [
         {
@@ -42,7 +42,7 @@ export const shapesProfilesArticle = {
           list: [
             '<strong>Cannot malrotate:</strong> Because they are symmetrical, there is no "wrong" orientation.',
             '<strong>Upper pole fullness:</strong> Creates a fuller, more "augmented" look in the upper breast.',
-            '<strong>Smooth surface option:</strong> Can be used with smooth shells (no BIA-ALCL texture concern).',
+            '<strong>Smooth surface option:</strong> Can be used with smooth shells (no <a href="/bia-alcl/">BIA-ALCL</a> texture concern).',
             '<strong>More cleavage:</strong> The symmetrical fill creates more medial fullness.',
             '<strong>Wider availability:</strong> More size, profile, and brand options than anatomical.',
             '<strong>Proven track record:</strong> Decades of clinical data support safety and satisfaction.',
@@ -136,7 +136,7 @@ export const shapesProfilesArticle = {
           heading: 'Key Measurements',
           list: [
             '<strong>Breast base width (BWD):</strong> The horizontal distance across your breast footprint — the most important measurement.',
-            '<strong>Nipple-to-fold distance:</strong> The vertical measurement from your nipple to the inframammary fold.',
+            '<strong>Nipple-to-fold distance:</strong> The vertical measurement from your nipple to the <a href="/breast-implant-incision-types/">inframammary</a> fold.',
             '<strong>Tissue pinch thickness:</strong> How much breast tissue you have for implant coverage.',
             '<strong>Chest wall shape:</strong> Concavity, convexity, or asymmetry of the ribcage.',
             '<strong>Skin elasticity:</strong> How well your skin will stretch and drape over the implant.',
@@ -182,7 +182,7 @@ export const shapesProfilesArticle = {
   faqs: [
     {
       question: 'Which implant shape looks most natural?',
-      answer: 'Both shapes can look natural with the right surgeon and patient selection. Round implants placed submuscularly often create a natural teardrop look because gravity and muscle pressure shape the implant. Anatomical implants start in a teardrop shape but carry rotation risk. Many surgeons achieve excellent natural results with round implants.',
+      answer: 'Both shapes can look natural with the right surgeon and patient selection. Round implants placed <a href="/breast-implant-placement/">submuscular</a>ly often create a natural teardrop look because gravity and muscle pressure shape the implant. Anatomical implants start in a teardrop shape but carry rotation risk. Many surgeons achieve excellent natural results with round implants.',
     },
     {
       question: 'What profile should I choose?',

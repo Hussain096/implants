@@ -29,7 +29,7 @@ export const breastImplantRemovalArticle = {
     {
       heading: 'What Is Breast Implant Removal?',
       content: `
-        <p><strong>Breast implant removal</strong> — commonly referred to as <strong>explant surgery</strong> or <strong>breast explant surgery</strong> — is a procedure to surgically remove breast implants from the body. Some patients choose to have their implants removed permanently, while others replace them with new devices (revision surgery) or combine removal with fat grafting.</p>
+        <p><strong>Breast implant removal</strong> — commonly referred to as <strong>explant surgery</strong> or <strong>breast explant surgery</strong> — is a procedure to surgically remove breast implants from the body. Some patients choose to have their implants removed permanently, while others replace them with new devices (revision surgery) or combine removal with <a href="/fat-transfer-breast-augmentation/">fat grafting</a>.</p>
         <p>Unlike simple revision, permanent removal involves unique considerations regarding the remaining breast tissue and the scar tissue "capsule" that naturally forms around any breast implant. When planning an <strong>implant removal</strong>, your surgeon will discuss how to manage this capsule based on your medical history and clinical presentation.</p>
       `,
     },
@@ -41,9 +41,9 @@ export const breastImplantRemovalArticle = {
           heading: 'Medical Reasons',
           list: [
             '<strong>Capsular contracture:</strong> The scar tissue capsule tightens and hardens around the implant, causing pain and distortion.',
-            '<strong>Implant rupture:</strong> Silent or symptomatic rupture of silicone gel or deflation of saline implants.',
+            '<strong><a href="/breast-implant-rupture/">Implant rupture</a>:</strong> Silent or symptomatic rupture of silicone gel or deflation of <a href="/saline-breast-implants/">saline implants</a>.',
             '<strong>Breast Implant Illness (BII):</strong> Systemic symptoms (fatigue, joint pain, brain fog) that patients attribute to their implants.',
-            '<strong>BIA-ALCL:</strong> A rare immune system lymphoma associated primarily with textured implants, requiring complete capsule removal.',
+            '<strong><a href="/bia-alcl/">BIA-ALCL</a>:</strong> A rare immune system lymphoma associated primarily with textured implants, requiring complete capsule removal.',
             '<strong>Infection or extrusion:</strong> Unresolved infection or implant thinning the skin and exposing the device.',
           ],
         },
@@ -69,7 +69,7 @@ export const breastImplantRemovalArticle = {
         },
         {
           heading: '2. Capsusectomy (Partial or Total)',
-          content: `<p>A <strong>capsusectomy</strong> involves removing the scar tissue envelope. A <i>total capsusectomy</i> removes the entire capsule, while a <i>partial capsusectomy</i> removes only the hardened or compromised portions. This is necessary for patients with severe capsular contracture, calcifications, or silicone leaks.</p>`,
+          content: `<p>A <strong>capsusectomy</strong> involves removing the scar tissue envelope. A <i>total capsusectomy</i> removes the entire capsule, while a <i>partial capsusectomy</i> removes only the hardened or compromised portions. This is necessary for patients with severe <a href="/capsular-contracture/">capsular contracture</a>, calcifications, or silicone leaks.</p>`,
         },
         {
           heading: '3. En Bloc Capsusectomy',

@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Gummy Bear Breast Implants
 // ============================================
 
@@ -29,7 +29,7 @@ export const gummyBearArticle = {
       content: `
         <p>"Gummy bear" is a popular term for <strong>highly cohesive, form-stable silicone gel breast implants</strong>. The nickname comes from the gel's consistency — if you cut a gummy bear implant in half, the gel holds its shape rather than flowing or spreading, much like a gummy bear candy. Patients often call this procedure a <strong>gummy bear boob job</strong>.</p>
         <p>This is a meaningful distinction from standard silicone gel implants, which use a softer, less cohesive gel. The highly cohesive gel in gummy bear implants provides superior <strong>shape retention</strong> — the implant maintains its form under gravity and body position changes.</p>
-        <p>It is important to note that if you have sagging breasts, implants alone cannot lift them. In such cases, patients undergo a combined <strong>gummy bear breast lift</strong> (augmentation mastopexy), which raises the sagging tissue and inserts form-stable implants to restore lost upper pole volume.</p>
+        <p>It is important to note that if you have sagging breasts, implants alone cannot lift them. In such cases, patients undergo a combined <strong>gummy bear breast lift</strong> (<a href="/breast-lift-with-augmentation/">augmentation mastopexy</a>), which raises the sagging tissue and inserts form-stable implants to restore lost upper pole volume.</p>
         <p>All modern silicone implants are technically "cohesive" (the gel sticks together rather than being liquid), but gummy bear implants use the <strong>highest level of gel cohesivity</strong> available.</p>
       `,
     },
@@ -54,7 +54,7 @@ export const gummyBearArticle = {
     {
       heading: 'Anatomical (Teardrop) Shape',
       content: `
-        <p>The most distinctive feature of gummy bear implants is their availability in <strong>anatomical (teardrop) shapes</strong>. Teardrop implants are designed to mimic the natural slope of a breast — fuller at the bottom, tapered at the top.</p>
+        <p>The most distinctive feature of gummy bear implants is their availability in <strong>anatomical (<a href="/round-vs-teardrop-implants/">tear drop breast</a>) shapes</strong>. Teardrop implants are designed to mimic the natural slope of a breast — fuller at the bottom, tapered at the top.</p>
         <p>This shape is possible because of the highly cohesive gel — a standard silicone gel implant would not maintain a teardrop shape because the softer gel would settle with gravity.</p>
       `,
       subsections: [
@@ -83,7 +83,7 @@ export const gummyBearArticle = {
           ['<strong>Minimal gel migration</strong> if shell is compromised', '<strong>Higher cost</strong> — premium pricing over standard silicone'],
           ['<strong>Very low rippling risk</strong>', '<strong>Larger incision needed</strong> — the firm gel cannot be compressed as much'],
           ['<strong>Anatomical shape option</strong> for natural results', '<strong>Rotation risk</strong> with teardrop shapes (requires textured surface)'],
-          ['<strong>Excellent long-term shape</strong>', '<strong>Textured surface concerns</strong> — association with BIA-ALCL'],
+          ['<strong>Excellent long-term shape</strong>', '<strong>Textured surface concerns</strong> — association with <a href="/bia-alcl/">BIA-ALCL</a>'],
         ],
       },
     },
@@ -97,7 +97,7 @@ export const gummyBearArticle = {
             'Patients who prioritize <strong>long-term shape retention</strong> over the softest possible feel.',
             'Patients seeking a <strong>natural, sloped breast contour</strong> (anatomical shape).',
             'Thin patients concerned about <strong>rippling</strong> — the firm gel minimizes visible wrinkling.',
-            'Patients in <strong>breast reconstruction</strong> — where shape predictability is especially important.',
+            'Patients in <strong><a href="/breast-reconstruction/">breast reconstruction</a></strong> — where shape predictability is especially important.',
             'Active patients who want an implant that maintains shape through body position changes.',
           ],
         },
@@ -126,7 +126,7 @@ export const gummyBearArticle = {
     {
       heading: 'Cost',
       content: `
-        <p>Gummy bear implants are the <strong>most expensive implant option</strong>, primarily due to higher implant costs and the specialized surgical technique sometimes required:</p>
+        <p>Gummy bear implants are the <strong>most expensive implant option</strong>, primarily due to higher implant costs and the specialized surgical technique sometimes required. See our full <a href="/breast-implant-cost/">breast implant cost</a> breakdown for comparison:</p>
         <p><strong>Total procedure cost: $6,500–$12,000</strong></p>
         <p>The implants themselves typically cost $1,500–$2,500 per pair — about $300–$500 more than standard silicone gel implants.</p>
       `,

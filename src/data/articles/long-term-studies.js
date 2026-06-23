@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Long-Term Studies
 // ============================================
 
@@ -34,14 +34,14 @@ export const longTermStudiesArticle = {
     {
       heading: 'Allergan Core Study (10-Year)',
       content: `
-        <p>Allergan's Core Study tracked patients receiving Natrelle silicone gel implants (both smooth and BIOCELL textured) over 10 years.</p>
+        <p><a href="/allergan/">Allergan</a>'s Core Study tracked patients receiving Natrelle silicone gel implants (both smooth and BIOCELL textured) over 10 years.</p>
       `,
       table: {
         headers: ['Complication', 'Augmentation', 'Revision-Augmentation', 'Reconstruction'],
         rows: [
-          ['<strong>Capsular Contracture (Baker III/IV)</strong>', '8.8%', '16.4%', '15.6%'],
+          ['<strong><a href="/capsular-contracture/">Capsular Contracture</a> (Baker III/IV)</strong>', '8.8%', '16.4%', '15.6%'],
           ['<strong>Reoperation</strong>', '24.2%', '40.5%', '42.6%'],
-          ['<strong>Implant Removal</strong>', '15.0%', '23.5%', '25.3%'],
+          ['<strong><a href="/breast-implant-removal/">Implant Removal</a></strong>', '15.0%', '23.5%', '25.3%'],
           ['<strong>Rupture (MRI)</strong>', '10.1%', '17.7%', '17.7%'],
           ['<strong>Infection</strong>', '1.3%', '3.2%', '5.5%'],
           ['<strong>Wrinkling/Rippling</strong>', '6.1%', '10.4%', '5.5%'],
@@ -141,7 +141,7 @@ export const longTermStudiesArticle = {
   faqs: [
     {
       question: 'Do breast implants need to be replaced every 10 years?',
-      answer: 'This is a common misconception. There is no arbitrary expiration date for breast implants. The 10-year timeframe comes from the duration of Core Studies and manufacturer warranties — not from a medical recommendation to replace implants on a schedule. Implants should be replaced or removed when there is a reason to do so (rupture, capsular contracture, aesthetic concern, or patient preference). Many implants remain in good condition well beyond 10 years.',
+      answer: 'This is a common misconception. There is no arbitrary expiration date for breast implants. The 10-year timeframe comes from the duration of Core Studies and manufacturer warranties — not from a medical recommendation to replace implants on a schedule. Implants should be replaced or removed when there is a reason to do so (rupture, <a href="/capsular-contracture/">capsular contracture</a>, aesthetic concern, or patient preference). Many implants remain in good condition well beyond 10 years.',
     },
     {
       question: 'Why is the reoperation rate so high?',

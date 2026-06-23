@@ -18,7 +18,7 @@ export const insuranceCoverageArticle = {
     'Cosmetic breast augmentation is NOT covered by health insurance — it is considered an elective procedure.',
     'Breast reconstruction after mastectomy IS covered by federal law (Women\'s Health and Cancer Rights Act of 1998).',
     'WHCRA coverage includes implant reconstruction, nipple reconstruction, surgery on the opposite breast for symmetry, and prostheses.',
-    'Some insurance plans cover implant removal for documented medical complications (e.g., BIA-ALCL, severe capsular contracture, rupture causing symptoms).',
+    'Some insurance plans cover <a href="/breast-implant-removal/">implant removal</a> for documented medical complications (e.g., <a href="/bia-alcl/">BIA-ALCL</a>, severe <a href="/capsular-contracture/">capsular contracture</a>, rupture causing symptoms).',
     'Correction of significant congenital deformities (e.g., tuberous breasts, Poland syndrome) may qualify for insurance coverage.',
     'Always obtain pre-authorization in writing before surgery to confirm coverage — verbal assurances are not binding.',
   ],
@@ -47,7 +47,7 @@ export const insuranceCoverageArticle = {
     {
       heading: 'The Women\'s Health and Cancer Rights Act (WHCRA)',
       content: `
-        <p>The <strong>Women\'s Health and Cancer Rights Act of 1998 (WHCRA)</strong> is a federal law that requires health insurers covering mastectomy to also cover breast reconstruction. This is the most important insurance law relating to breast implants.</p>
+        <p>The <strong>Women\'s Health and Cancer Rights Act of 1998 (WHCRA)</strong> is a federal law that requires health insurers covering mastectomy to also cover <a href="/breast-reconstruction/">breast reconstruction</a>. This is the most important insurance law relating to breast implants.</p>
       `,
       subsections: [
         {

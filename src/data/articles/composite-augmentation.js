@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Composite Augmentation
 // ============================================
 
@@ -27,7 +27,7 @@ export const compositeAugmentationArticle = {
     {
       heading: 'What Is Composite Augmentation?',
       content: `
-        <p><strong>Composite breast augmentation</strong> is a technique that combines a traditional breast implant with autologous fat transfer. A breast implant provides the primary volume, while strategic fat grafting adds supplemental tissue to create a more natural appearance and feel.</p>
+        <p><strong>Composite breast augmentation</strong> is a technique that combines a traditional breast implant with autologous <a href="/fat-transfer-breast-augmentation/">fat transfer</a>. A breast implant provides the primary volume, while strategic fat grafting adds supplemental tissue to create a more natural appearance and feel.</p>
         <p>Think of it as "the best of both worlds" — the reliable volume and shape of an implant with the natural feel and contouring capabilities of your own tissue.</p>
       `,
     },
@@ -81,7 +81,7 @@ export const compositeAugmentationArticle = {
         {
           heading: 'Step 3: Implant Placement',
           list: [
-            'The breast implant is placed using standard techniques (submuscular, dual-plane, or subglandular).',
+            'The breast implant is placed using standard techniques (<a href="/breast-implant-placement/">submuscular</a>, dual-plane, or subglandular).',
             'Implant sizing may be slightly smaller than would be used for implant-only augmentation.',
           ],
         },
@@ -105,7 +105,7 @@ export const compositeAugmentationArticle = {
         '<strong>Improved cleavage:</strong> Fat grafting to the medial breast creates more natural-looking cleavage.',
         '<strong>Smaller implant option:</strong> Fat supplements volume, allowing a smaller device — potentially reducing long-term complication risk.',
         '<strong>Bonus body contouring:</strong> Liposuction of the donor area provides additional body sculpting.',
-        '<strong>May reduce capsular contracture:</strong> Preliminary research suggests the stem cells in fat tissue may have anti-inflammatory effects at the implant-tissue interface.',
+        '<strong>May reduce <a href="/capsular-contracture/">capsular contracture</a>:</strong> Preliminary research suggests the stem cells in fat tissue may have anti-inflammatory effects at the implant-tissue interface.',
       ],
     },
     {
@@ -134,7 +134,7 @@ export const compositeAugmentationArticle = {
   faqs: [
     {
       question: 'Is composite augmentation better than implants alone?',
-      answer: '"Better" depends on your goals and anatomy. For thin patients who want natural feel with reliable volume, composite is excellent. For patients with adequate tissue coverage, implants alone may provide equally satisfying results without the additional complexity and cost. Discuss both options with your surgeon to determine which approach best suits your anatomy and goals.',
+      answer: '"Better" depends on your goals and anatomy. For thin patients who want natural feel with reliable volume, composite is excellent. For patients with adequate tissue coverage, implants alone may provide equally satisfying results without the additional complexity and cost. Discuss both options with your <a href="/choosing-surgeon/">surgeon</a> to determine which approach best suits your anatomy and goals.',
     },
     {
       question: 'How long does the fat transfer portion last?',

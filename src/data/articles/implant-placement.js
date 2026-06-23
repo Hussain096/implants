@@ -16,7 +16,7 @@ export const implantPlacementArticle = {
 
   keyTakeaways: [
     'Implant placement refers to where the implant sits relative to the pectoralis major chest muscle.',
-    'Submuscular (under the muscle) provides more tissue coverage, lower capsular contracture rates, and better mammography visibility.',
+    'Submuscular (under the muscle) provides more tissue coverage, lower <a href="/capsular-contracture/">capsular contracture</a> rates, and better mammography visibility.',
     'Subglandular (over the muscle) offers faster recovery, no animation deformity, and may suit patients with adequate breast tissue.',
     'Dual-plane placement is the most popular technique — combining the benefits of both approaches.',
     'The best placement depends on your body type, tissue thickness, implant type, and aesthetic goals.',
@@ -35,7 +35,7 @@ export const implantPlacementArticle = {
       heading: 'Submuscular Placement (Under the Muscle)',
       content: `
         <p>In submuscular placement, the implant is positioned <strong>beneath the pectoralis major muscle</strong>. The muscle provides an additional layer of soft tissue coverage over the implant.</p>
-        <p>This is one of the most commonly chosen positions, particularly for patients with thin tissue or those choosing silicone gel implants.</p>
+        <p>This is one of the most commonly chosen positions, particularly for patients with thin tissue or those choosing <a href="/silicone-breast-implants/">silicone gel implant</a>s.</p>
       `,
       subsections: [
         {
@@ -147,7 +147,7 @@ export const implantPlacementArticle = {
         '<strong>Thin with little breast tissue:</strong> Submuscular or dual-plane provides critical coverage to hide implant edges.',
         '<strong>Adequate existing breast tissue:</strong> Either placement may work — your surgeon will advise based on skin elasticity and goals.',
         '<strong>Athletic/bodybuilder:</strong> Subglandular avoids animation deformity during chest exercises.',
-        '<strong>Mild ptosis (sagging):</strong> Dual-plane II or III can provide a modest lift effect without a separate mastopexy.',
+        '<strong>Mild ptosis (sagging):</strong> Dual-plane II or III can provide a modest lift effect without a separate <a href="/breast-lift/">mastopexy</a>.',
         '<strong>Revision surgery:</strong> Placement may change from the original surgery — "site change" (switching from over to under or vice versa) is a common revision strategy.',
       ],
       callout: {
@@ -162,7 +162,7 @@ export const implantPlacementArticle = {
   faqs: [
     {
       question: 'Does "under the muscle" mean the entire implant is behind the muscle?',
-      answer: 'Not usually. In most "under the muscle" (submuscular) and dual-plane techniques, the upper 60–70% of the implant is covered by the pectoralis muscle, while the lower portion is behind breast tissue only. Full submuscular coverage (where the entire implant is behind muscle) is less common and primarily used in breast reconstruction.',
+      answer: 'Not usually. In most "under the muscle" (submuscular) and dual-plane techniques, the upper 60–70% of the implant is covered by the pectoralis muscle, while the lower portion is behind breast tissue only. Full submuscular coverage (where the entire implant is behind muscle) is less common and primarily used in <a href="/breast-reconstruction/">breast reconstruction</a>.',
     },
     {
       question: 'Can I switch from over to under the muscle (or vice versa)?',

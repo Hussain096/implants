@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Breast Lift (Mastopexy)
 // ============================================
 
@@ -23,7 +23,7 @@ export const breastLiftArticle = {
     'Results are long-lasting but not permanent; gravity, aging, and weight changes will gradually affect breast shape over time.',
   ],
 
-  safetyNote: 'A breast lift is a surgical procedure that requires general anesthesia and involves incisions that produce permanent scars. Discuss all risks, expected scarring patterns, and realistic outcomes with your board-certified plastic surgeon before proceeding.',
+  safetyNote: 'A breast lift is a surgical procedure that requires general anesthesia and involves incisions that produce permanent scars. Discuss all risks, expected scarring patterns, and realistic outcomes with your <a href="/choosing-surgeon/">board-certified plastic surgeon</a> before proceeding.',
 
   sections: [
     {

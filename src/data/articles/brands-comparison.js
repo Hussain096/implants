@@ -51,7 +51,7 @@ export const brandsComparisonArticle = {
     {
       heading: 'Allergan (AbbVie) — Natrelle',
       content: `
-        <p><strong>Allergan</strong> (now part of AbbVie) has the largest US market share and offers the most extensive product line. Their <strong>Natrelle Inspira</strong> collection includes the widest range of profiles and volumes of any manufacturer.</p>
+        <p><strong><a href="/allergan/">Allergan</a></strong> (now part of AbbVie) has the largest US market share and offers the most extensive product line. Their <strong>Natrelle Inspira</strong> collection includes the widest range of profiles and volumes of any manufacturer.</p>
       `,
       subsections: [
         {
@@ -67,7 +67,7 @@ export const brandsComparisonArticle = {
         {
           heading: 'ConfidencePlus Warranty',
           list: [
-            'Lifetime implant replacement for rupture or capsular contracture (Baker III/IV).',
+            'Lifetime implant replacement for rupture or <a href="/capsular-contracture/">capsular contracture</a> (Baker III/IV).',
             'Up to $3,500 financial assistance for covered events.',
             'Must register within 90 days of surgery to activate.',
           ],
@@ -83,7 +83,7 @@ export const brandsComparisonArticle = {
     {
       heading: 'Mentor (Johnson & Johnson)',
       content: `
-        <p><strong>Mentor</strong> is the second-largest US manufacturer, known for their MemoryGel and MemoryShape implant lines. Backed by Johnson & Johnson's medical device division, Mentor has one of the longest track records in the industry.</p>
+        <p><strong><a href="/mentor/">Mentor</a></strong> is the second-largest US manufacturer, known for their MemoryGel and MemoryShape implant lines. Backed by Johnson & Johnson's medical device division, Mentor has one of the longest track records in the industry.</p>
       `,
       subsections: [
         {
@@ -108,7 +108,7 @@ export const brandsComparisonArticle = {
     {
       heading: 'Sientra',
       content: `
-        <p><strong>Sientra</strong> is a smaller, US-focused brand that differentiates itself through <strong>surgeon-only distribution</strong> — their implants are only sold to board-certified plastic surgeons. In early 2024, Sientra's breast assets were acquired by <strong>Tiger Aesthetics Medical, LLC</strong>, which continues to manufacture Sientra's Opus line in the US and honors all Sientra warranties.</p>
+        <p><strong><a href="/sientra/">Sientra</a></strong> is a smaller, US-focused brand that differentiates itself through <strong>surgeon-only distribution</strong> — their implants are only sold to board-certified plastic surgeons. In early 2024, Sientra's breast assets were acquired by <strong>Tiger Aesthetics Medical, LLC</strong>, which continues to manufacture Sientra's Opus line in the US and honors all Sientra warranties.</p>
       `,
       subsections: [
         {
@@ -133,7 +133,7 @@ export const brandsComparisonArticle = {
     {
       heading: 'Motiva (Establishment Labs)',
       content: `
-        <p><strong>Motiva</strong> is the newest FDA-approved entrant (2024), developed by Establishment Labs in Costa Rica. Motiva has been widely used internationally since 2010 and brings several innovative features to the US market.</p>
+        <p><strong><a href="/motiva/">Motiva</a></strong> is the newest FDA-approved entrant (2024), developed by Establishment Labs in Costa Rica. Motiva has been widely used internationally since 2010 and brings several innovative features to the US market.</p>
       `,
       subsections: [
         {

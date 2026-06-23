@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Breast Implant Illness (BII)
 // ============================================
 
@@ -92,7 +92,7 @@ export const biiArticle = {
           list: [
             '<strong>Immune activation:</strong> Some studies show measurable immune system changes in symptomatic implant patients.',
             '<strong>Silicone sensitivity:</strong> A small percentage of patients may have an inflammatory response to silicone particles.',
-            '<strong>Biofilm hypothesis:</strong> Chronic low-grade infection around the implant may trigger systemic inflammation.',
+            '<strong>Biofilm hypothesis:</strong> Chronic low-grade <a href="/breast-implant-infection/">infection</a> around the implant may trigger systemic inflammation.',
             '<strong>Genetic susceptibility:</strong> Research suggests some patients may have genetic predispositions that make them more vulnerable.',
             '<strong>Heavy metal concerns:</strong> Some studies have examined trace metals in implant shells and their potential systemic effects.',
           ],
@@ -125,7 +125,7 @@ export const biiArticle = {
     {
       heading: 'Explantation and Symptom Resolution',
       content: `
-        <p>Many patients who believe they have BII choose to have their implants removed (<strong>explantation</strong>). Here's what the data shows about outcomes:</p>
+        <p>Many patients who believe they have BII choose to have their implants removed (<strong><a href="/breast-implant-removal/">explantation</a></strong>). Here's what the data shows about outcomes:</p>
       `,
       subsections: [
         {
@@ -142,11 +142,11 @@ export const biiArticle = {
         {
           heading: 'Explantation Considerations',
           list: [
-            '<strong>En bloc capsulectomy:</strong> Many BII patients and surgeons prefer removing the implant and capsule intact (as one piece).',
+            '<strong>En bloc <a href="/capsular-contracture/">capsulectomy</a>:</strong> Many BII patients and surgeons prefer removing the implant and capsule intact (as one piece).',
             '<strong>Total capsulectomy:</strong> Complete removal of the scar tissue capsule, even if not in one piece.',
             '<strong>Cost:</strong> Explantation surgery typically costs $4,000–$10,000 depending on complexity.',
             '<strong>Insurance:</strong> Some insurers cover explantation if there is a documented medical reason (e.g., rupture, contracture). Coverage for BII-related explantation varies.',
-            '<strong>Breast appearance:</strong> Breasts will look different after implant removal. Some patients choose a breast lift (mastopexy) at the time of explantation.',
+            '<strong>Breast appearance:</strong> Breasts will look different after implant removal. Some patients choose a <a href="/breast-lift/">breast lift</a> (mastopexy) at the time of explantation.',
           ],
         },
       ],

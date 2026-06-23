@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Silicone Gel Breast Implants
 // ============================================
 
@@ -89,7 +89,7 @@ export const siliconeArticle = {
         },
         {
           heading: 'Highly Cohesive "Gummy Bear" (Form-Stable)',
-          content: `<p>These use a firmer, more cohesive gel that maintains its shape even if the shell is cut. Often anatomically (teardrop) shaped. They provide excellent shape retention but feel firmer than standard silicone. <a href="/gummy-bear-implants/">Read our complete gummy bear implant guide →</a></p>`,
+          content: `<p>These use a firmer, more cohesive gel that maintains its shape even if the shell is cut. Often anatomically (teardrop) shaped. They provide excellent shape retention but feel firmer than standard silicone. Learn more about <a href="/gummy-bear-implants/">gummy bear implants</a> and their unique properties.</p>`,
         },
         {
           heading: 'Ergonomic / Responsive Gel',
@@ -162,10 +162,10 @@ export const siliconeArticle = {
         {
           heading: 'Key Risks to Consider',
           list: [
-            '<strong>Capsular contracture:</strong> Hardening of the scar tissue around the implant (most common reason for revision).',
+            '<strong><a href="/capsular-contracture/">Capsular contracture</a>:</strong> Hardening of the scar tissue around the implant (most common reason for revision).',
             '<strong>Silent rupture:</strong> Implant shell breach without visible symptoms, requiring regular imaging.',
             '<strong>Breast pain:</strong> Temporary or persistent breast discomfort or sensitivity changes.',
-            '<strong>BIA-ALCL:</strong> A rare immune system cancer associated primarily with textured implants.',
+            '<strong><a href="/bia-alcl/">BIA-ALCL</a>:</strong> A rare immune system cancer associated primarily with textured implants.',
             '<strong>Breast Implant Illness (BII):</strong> Systemic symptoms reported by patients, though no official clinical diagnostic criteria exist.',
           ],
         },
@@ -185,7 +185,7 @@ export const siliconeArticle = {
         },
         {
           heading: 'Profile Selection',
-          content: `<p>Profile refers to how much the implant projects forward relative to its base width. Options include <strong>low, moderate, moderate-plus, and high profile</strong>. Wider-chested patients may prefer moderate profile; narrower frames may benefit from high profile for adequate projection.</p>`,
+          content: `<p>Profile refers to how much the implant projects forward relative to its base width. Options include <strong>low, moderate, moderate-plus, and <a href="/breast-implant-profiles/">high profile implants</a></strong>. Wider-chested patients may prefer moderate profile; narrower frames may benefit from high profile for adequate projection.</p>`,
         },
         {
           heading: 'Placement',
@@ -196,7 +196,7 @@ export const siliconeArticle = {
     {
       heading: 'Recovery Timeline',
       content: `
-        <p>Recovery from silicone gel breast augmentation follows a predictable timeline. The fill material doesn't significantly impact recovery — surgical placement and technique are more influential factors.</p>
+        <p><a href="/breast-augmentation-recovery-timeline/">Breast augmentation recovery</a> from silicone gel implants follows a predictable timeline. The fill material doesn't significantly impact recovery — surgical placement and technique are more influential factors.</p>
       `,
       subsections: [
         {

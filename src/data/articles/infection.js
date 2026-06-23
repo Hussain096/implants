@@ -15,10 +15,10 @@ export const infectionArticle = {
   reviewer: 'Dr. Michael Rivera, Board-Certified Plastic Surgeon',
 
   keyTakeaways: [
-    'Infection occurs in approximately 1–3% of primary breast augmentation cases — most present within the first 6 weeks.',
+    'Infection occurs in approximately 1–3% of primary <a href="/breast-augmentation-surgery/">breast augmentation</a> cases — most present within the first 6 weeks.',
     'Early signs include increasing redness, warmth, swelling, pain, fever, and wound drainage — contact your surgeon immediately if these develop.',
-    'The "14-point plan" by Adams et al. has significantly reduced infection and capsular contracture rates through standardized intraoperative techniques.',
-    'Mild infections may be treated with antibiotics alone; severe or deep infections often require implant removal.',
+    'The "14-point plan" by Adams et al. has significantly reduced infection and <a href="/capsular-contracture/">capsular contracture</a> rates through standardized intraoperative techniques.',
+    'Mild infections may be treated with antibiotics alone; severe or deep infections often require <a href="/breast-implant-removal/">implant removal</a>.',
     'Biofilm — a microscopic bacterial colony on the implant surface — is increasingly recognized as a contributor to both infection and capsular contracture.',
     'The Keller funnel (no-touch technique) and pocket irrigation with triple-antibiotic solution are key preventive measures.',
   ],
@@ -156,7 +156,7 @@ export const infectionArticle = {
         '<strong>Chronic subclinical infection:</strong> Low-grade infection that may not cause obvious symptoms but triggers inflammation.',
         '<strong>Capsular contracture:</strong> The leading theory for capsular contracture involves biofilm triggering chronic inflammation that leads to capsule thickening.',
         '<strong>Treatment-resistant infection:</strong> Antibiotics cannot penetrate the biofilm matrix effectively — this is why implant removal is often the definitive treatment.',
-        '<strong>BIA-ALCL:</strong> Biofilm-induced chronic inflammation is one hypothesis for the development of BIA-ALCL, particularly with textured implants that have more surface area.',
+        '<strong><a href="/bia-alcl/">BIA-ALCL</a>:</strong> Biofilm-induced chronic inflammation is one hypothesis for the development of BIA-ALCL, particularly with textured implants that have more surface area.',
       ],
     },
   ],
@@ -164,7 +164,7 @@ export const infectionArticle = {
   faqs: [
     {
       question: 'How common is breast implant infection?',
-      answer: 'Breast implant infection occurs in approximately 1–3% of primary augmentation cases and 2–5% of revision cases. With the adoption of the 14-point plan and no-touch technique, many high-volume surgeons report infection rates below 1%. Rates are higher in immediate breast reconstruction (5–10%) due to compromised tissue.',
+      answer: 'Breast implant infection occurs in approximately 1–3% of primary augmentation cases and 2–5% of revision cases. With the adoption of the 14-point plan and no-touch technique, many high-volume surgeons report infection rates below 1%. Rates are higher in immediate <a href="/breast-reconstruction/">breast reconstruction</a> (5–10%) due to compromised tissue.',
     },
     {
       question: 'Can I keep my implant if I get an infection?',

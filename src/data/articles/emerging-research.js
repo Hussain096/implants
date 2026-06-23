@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Emerging Research
 // ============================================
 
@@ -15,7 +15,7 @@ export const emergingResearchArticle = {
   reviewer: 'Dr. James Thornton, Board-Certified Plastic Surgeon',
 
   keyTakeaways: [
-    'Surface technology research aims to create implant surfaces that minimize both capsular contracture and BIA-ALCL risk — the "ideal surface" is still being defined.',
+    'Surface technology research aims to create implant surfaces that minimize both <a href="/capsular-contracture/">capsular contracture</a> and BIA-ALCL risk — the "ideal surface" is still being defined.',
     'Biofilm prevention research is advancing with antimicrobial coatings, novel irrigation solutions, and surface modifications.',
     'Breast Implant Illness (BII) research is increasing, with multiple NIH-funded studies investigating potential immune mechanisms.',
     'Tissue engineering and 3D bioprinting represent long-term alternatives to traditional implants, though clinical application is years away.',
@@ -68,7 +68,7 @@ export const emergingResearchArticle = {
     {
       heading: 'Breast Implant Illness (BII) Research',
       content: `
-        <p>BII is one of the most active research areas in breast implant science, driven by increasing patient reports and advocacy:</p>
+        <p><a href="/breast-implant-illness/">Breast Implant Illness (BII)</a> is one of the most active research areas in breast implant science, driven by increasing patient reports and advocacy:</p>
       `,
       subsections: [
         {
@@ -130,7 +130,7 @@ export const emergingResearchArticle = {
       list: [
         '<strong>RFID identification:</strong> Already implemented by Motiva (Q Inside) — allows non-invasive implant identification.',
         '<strong>Smart implants:</strong> Research into sensors embedded in implant shells that could monitor pressure, temperature, and integrity — transmitting data wirelessly.',
-        '<strong>Advanced ultrasound:</strong> Improvements in high-frequency ultrasound technology may eventually match MRI sensitivity for rupture detection at lower cost.',
+        '<strong>Advanced ultrasound:</strong> Improvements in high-frequency ultrasound technology may eventually match MRI sensitivity for <a href="/breast-implant-rupture/">rupture detection</a> at lower cost.',
         '<strong>Biomarker monitoring:</strong> Research into blood-based biomarkers that could indicate implant complications without imaging.',
       ],
     },
@@ -139,7 +139,7 @@ export const emergingResearchArticle = {
   faqs: [
     {
       question: 'When will tissue-engineered breasts be available?',
-      answer: 'Tissue engineering for breast augmentation is still in pre-clinical research phases. Based on the current pace of development and the regulatory pathway required, clinical availability for elective augmentation is likely 15–25+ years away. Some tissue engineering approaches may become available sooner for breast reconstruction, where the medical need justifies faster regulatory pathways.',
+      answer: 'Tissue engineering for breast augmentation is still in pre-clinical research phases. Based on the current pace of development and the regulatory pathway required, clinical availability for elective augmentation is likely 15–25+ years away. Some tissue engineering approaches may become available sooner for <a href="/breast-reconstruction/">breast reconstruction</a>, where the medical need justifies faster regulatory pathways.',
     },
     {
       question: 'Will AI replace surgeons for breast augmentation planning?',

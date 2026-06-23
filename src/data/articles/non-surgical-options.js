@@ -15,9 +15,9 @@ export const nonSurgicalOptionsArticle = {
   reviewer: 'Dr. Michael Rivera, Board-Certified Plastic Surgeon',
 
   keyTakeaways: [
-    'No non-surgical method can achieve results comparable to breast implants or surgical fat transfer for permanent breast enlargement.',
-    'Injectable fillers (hyaluronic acid, Aquafilling) for breast augmentation are NOT FDA-approved and carry serious safety risks.',
-    'The "vampire breast lift" (PRP injection) may temporarily improve skin quality but does not significantly increase breast size.',
+    'No non-surgical method can achieve results comparable to breast implants or surgical <a href="/fat-transfer-breast-augmentation/">fat transfer</a> for permanent breast enlargement.',
+    'Injectable fillers (hyaluronic acid, Aquafilling) for <a href="/breast-augmentation-surgery/">breast augmentation</a> are NOT FDA-approved and carry serious safety risks.',
+    'The "vampire <a href="/breast-lift/">breast lift</a>" (PRP injection) may temporarily improve skin quality but does not significantly increase breast size.',
     'External vacuum expansion (Brava) has limited evidence for modest tissue expansion but requires extreme commitment.',
     'Supplements, creams, and herbal products marketed for breast enlargement have no credible scientific evidence.',
     'Exercise can strengthen the pectoral muscles underneath the breasts but does not increase breast tissue volume.',
@@ -68,7 +68,7 @@ export const nonSurgicalOptionsArticle = {
     {
       heading: 'Vampire Breast Lift (PRP)',
       content: `
-        <p>The <strong>"Vampire Breast Lift"</strong> involves injecting Platelet-Rich Plasma (PRP) — derived from your own blood — into the breast tissue. Despite the dramatic marketing name:</p>
+        <p>The <strong>"Vampire <a href="/breast-lift/">Breast Lift</a>"</strong> involves injecting Platelet-Rich Plasma (PRP) — derived from your own blood — into the breast tissue. Despite the dramatic marketing name:</p>
       `,
       list: [
         'PRP may improve skin quality, texture, and minor crepiness.',

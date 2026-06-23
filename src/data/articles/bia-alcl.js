@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: BIA-ALCL
 // ============================================
 
@@ -18,7 +18,7 @@ export const biaAlclArticle = {
     'BIA-ALCL is a rare cancer of the immune system (not breast cancer) found in the scar tissue capsule around breast implants.',
     'It is primarily associated with textured-surface breast implants — smooth-surfaced implants carry minimal risk.',
     'The estimated lifetime risk ranges from 1 in 2,832 to 1 in 30,000 depending on the textured surface type.',
-    'Most cases are highly treatable when caught early — typically requiring implant removal and capsulectomy.',
+    'Most cases are highly treatable when caught early — typically requiring <a href="/breast-implant-removal/">implant removal</a> and capsulectomy.',
     'The most common symptom is late-onset swelling (fluid collection) around the implant, usually 2+ years after surgery.',
     'In 2019, Allergan voluntarily recalled their BIOCELL textured products — the surface type with the highest association.',
   ],
@@ -43,8 +43,8 @@ export const biaAlclArticle = {
         rows: [
           ['<strong>Smooth</strong>', 'Rare — very few confirmed cases', 'Minimal risk'],
           ['<strong>Micro-textured</strong> (e.g., Motiva SmoothSilk)', 'Very few cases reported globally', 'Very low risk'],
-          ['<strong>Macro-textured</strong> (e.g., Allergan BIOCELL)', 'Strongest association — majority of cases', 'Highest relative risk'],
-          ['<strong>Textured (other)</strong> (e.g., Mentor Siltex)', 'Some confirmed cases', 'Low to moderate risk'],
+          ['<strong>Macro-textured</strong> (e.g., <a href="/allergan/">Allergan</a> BIOCELL)', 'Strongest association — majority of cases', 'Highest relative risk'],
+          ['<strong>Textured (other)</strong> (e.g., <a href="/mentor/">Mentor</a> Siltex)', 'Some confirmed cases', 'Low to moderate risk'],
         ],
         caption: 'BIA-ALCL risk by implant surface type.',
       },
@@ -67,7 +67,7 @@ export const biaAlclArticle = {
             '<strong>Late-onset seroma:</strong> Fluid collection (swelling) around the implant, typically developing 2+ years after implant surgery — this is the hallmark symptom.',
             '<strong>Breast swelling:</strong> One breast becomes noticeably larger due to fluid accumulation.',
             '<strong>Pain or discomfort:</strong> In the affected breast.',
-            '<strong>Capsular contracture:</strong> Sudden onset of hardening.',
+            '<strong><a href="/capsular-contracture/">Capsular contracture</a>:</strong> Sudden onset of hardening.',
             '<strong>Lump or mass:</strong> Less common — indicates a more advanced stage.',
             '<strong>Skin changes:</strong> Rare — rash, redness, or skin thickening over the breast.',
           ],
@@ -94,7 +94,7 @@ export const biaAlclArticle = {
           heading: 'Early-Stage (Most Common)',
           content: `<p>The majority of cases are diagnosed in early stages, where the disease is confined to the fluid and/or capsule around the implant. Treatment typically involves:</p>`,
           list: [
-            '<strong>Complete surgical excision:</strong> Removal of the implant and the complete surrounding capsule (en bloc capsulectomy when possible).',
+            '<strong>Complete surgical excision:</strong> <a href="/breast-implant-removal/">Removal of the implant</a> and the complete surrounding capsule (en bloc capsulectomy when possible).',
             '<strong>Both sides:</strong> Most guidelines recommend removing both implants even if only one side is affected.',
             '<strong>Prognosis:</strong> Excellent — most patients with capsule-confined disease are cured with surgery alone.',
           ],

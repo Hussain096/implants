@@ -1,4 +1,4 @@
-﻿// ============================================
+// ============================================
 // Article: Capsular Contracture
 // ============================================
 
@@ -63,12 +63,12 @@ export const capsularContractureArticle = {
       subsections: [
         {
           heading: 'Bacterial Biofilm Theory',
-          content: `<p>The leading theory suggests that low-grade bacterial contamination during or after surgery creates a <strong>biofilm</strong> (a thin layer of bacteria) on the implant surface. This biofilm triggers chronic inflammation, which stimulates excessive collagen production and capsule tightening. This theory has led to the development of the "14-point plan" for prevention.</p>`,
+          content: `<p>The leading theory suggests that low-grade bacterial contamination during or after surgery creates a <strong><a href="/breast-implant-infection/">biofilm</a></strong> (a thin layer of bacteria) on the implant surface. This biofilm triggers chronic inflammation, which stimulates excessive collagen production and capsule tightening. This theory has led to the development of the "14-point plan" for prevention.</p>`,
         },
         {
           heading: 'Known Risk Factors',
           list: [
-            '<strong>Subglandular placement:</strong> Implants placed over the muscle have higher capsular contracture rates than submuscular placement.',
+            '<strong>Subglandular placement:</strong> Implants placed over the muscle have higher capsular contracture rates than <a href="/breast-implant-placement/">submuscular placement</a>.',
             '<strong>Smooth-surfaced implants</strong> in subglandular placement show higher rates (textured surfaces may disrupt organized capsule formation, but carry BIA-ALCL risk).',
             '<strong>Hematoma:</strong> Post-surgical bleeding around the implant significantly increases risk.',
             '<strong>Seroma:</strong> Fluid accumulation around the implant.',
@@ -90,7 +90,7 @@ export const capsularContractureArticle = {
         {
           heading: 'Key Prevention Strategies',
           list: [
-            '<strong>Inframammary incision:</strong> Avoids contamination from breast ducts (vs. periareolar).',
+            '<strong><a href="/breast-implant-incision-types/">Inframammary incision</a>:</strong> Avoids contamination from breast ducts (vs. periareolar).',
             '<strong>Submuscular placement:</strong> The muscle provides additional coverage and blood supply.',
             '<strong>"No-touch" technique:</strong> Minimizing direct handling of the implant.',
             '<strong>Pocket irrigation:</strong> Rinsing the implant pocket with triple-antibiotic solution (Betadine, Cefazolin, Gentamicin).',
@@ -132,7 +132,7 @@ export const capsularContractureArticle = {
             '<strong>Partial capsulectomy:</strong> Removing part of the capsule. Moderate approach.',
             '<strong>Total capsulectomy:</strong> Complete removal of the entire capsule. Most thorough approach with lowest recurrence.',
             '<strong>En bloc capsulectomy:</strong> Removing the capsule intact (in one piece) with the implant inside it. Used when capsule integrity is important (e.g., suspected implant rupture).',
-            '<strong>Implant replacement:</strong> Placing a new implant — often switching from subglandular to submuscular placement to reduce recurrence.',
+            '<strong><a href="/breast-implant-removal/">Implant replacement</a>:</strong> Placing a new implant — often switching from subglandular to submuscular placement to reduce recurrence.',
             '<strong>Site change:</strong> Moving the implant to a different plane (e.g., over-muscle to under-muscle) with a new capsule.',
           ],
         },

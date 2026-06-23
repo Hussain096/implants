@@ -16,7 +16,7 @@ export const motivaArticle = {
 
   keyTakeaways: [
     'Motiva (by Establishment Labs) received FDA approval in 2024, making it the newest breast implant brand in the US market.',
-    'SmoothSilk/SilkSurface is Motiva\'s proprietary nano-textured surface — designed to reduce capsular contracture risk while maintaining a low BIA-ALCL profile.',
+    'SmoothSilk/SilkSurface is Motiva\'s proprietary nano-textured surface — designed to reduce <a href="/capsular-contracture/">capsular contracture</a> risk while maintaining a low <a href="/bia-alcl/">BIA-ALCL</a> profile.',
     'Ergonomix2 is Motiva\'s flagship implant, featuring Progressive Gel that adapts shape with body position (more natural movement).',
     'TrueMonobloc shell construction uses a single piece of silicone (no patch joints) for enhanced shell integrity.',
     'Motiva has been used in 80+ countries since 2010, with extensive international data, but US-specific long-term data is still building.',
@@ -44,7 +44,7 @@ export const motivaArticle = {
         },
         {
           heading: 'Progressive Gel',
-          content: `<p>Motiva's gel fill responds to body position and gravity, creating more natural breast movement. When upright, the gel settles toward the lower pole (mimicking natural breast shape). When supine, it distributes more evenly. This is in contrast to form-stable (gummy bear) implants that maintain the same shape regardless of position.</p>`,
+          content: `<p>Motiva's gel fill responds to body position and gravity, creating more natural breast movement. When upright, the gel settles toward the lower pole (mimicking natural breast shape). When supine, it distributes more evenly. This is in contrast to form-stable (<a href="/gummy-bear-implants/">gummy bear</a>) implants that maintain the same shape regardless of position.</p>`,
         },
         {
           heading: 'TrueMonobloc Shell',
@@ -77,7 +77,7 @@ export const motivaArticle = {
         },
         {
           heading: 'Motiva Round',
-          content: `<p>Traditional round silicone gel implants with SmoothSilk surface for patients or surgeons who prefer standard gel cohesivity.</p>`,
+          content: `<p>Traditional round <a href="/silicone-breast-implants/">silicone gel implant</a>s with SmoothSilk surface for patients or surgeons who prefer standard gel cohesivity.</p>`,
         },
       ],
     },

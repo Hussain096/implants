@@ -19,7 +19,7 @@ export const sientraArticle = {
     'The Opus line features silicone gel implants with HSC+ (High-Strength Cohesive Plus) gel technology.',
     'Sientra\'s Platinum20 warranty provides 20 years of financial assistance — the most extended coverage in the industry.',
     'FDA-approved in 2012, making Sientra the newest of the three traditional US manufacturers.',
-    'Sientra reports some of the lowest capsular contracture rates in their clinical studies (~5% at 6 years).',
+    'Sientra reports some of the lowest <a href="/capsular-contracture/">capsular contracture</a> rates in their clinical studies (~5% at 6 years).',
     'All current Sientra products are manufactured in the US at their Goleta, California facility.',
   ],
 
@@ -48,7 +48,7 @@ export const sientraArticle = {
         },
         {
           heading: 'OPUS Anatomical (Form-Stable)',
-          content: `<p>Sientra's anatomically shaped implants with textured surface for rotational stability. Available in multiple dimensions and projections. As with all textured implants, discuss BIA-ALCL risk considerations with your surgeon.</p>`,
+          content: `<p>Sientra's anatomically shaped implants with textured surface for rotational stability. Available in multiple dimensions and projections. As with all textured implants, discuss <a href="/bia-alcl/">BIA-ALCL</a> risk considerations with your surgeon.</p>`,
         },
         {
           heading: 'Sientra Saline',
@@ -71,7 +71,7 @@ export const sientraArticle = {
         type: 'info',
         icon: '🏅',
         title: 'Board Certification Matters',
-        text: 'While Sientra\'s surgeon-only model is unique, ALL breast augmentation should ideally be performed by ABPS board-certified plastic surgeons regardless of implant brand. Other manufacturers sell to board-certified surgeons too — Sientra simply makes it a requirement.',
+        text: 'While Sientra\'s surgeon-only model is unique, ALL <a href="/breast-augmentation-surgery/">breast augmentation</a> should ideally be performed by ABPS board-certified plastic surgeons regardless of implant brand. Other manufacturers sell to board-certified surgeons too — Sientra simply makes it a requirement.',
       },
     },
     {
@@ -132,7 +132,7 @@ export const sientraArticle = {
       answer: 'No manufacturer\'s implants are universally "better." Sientra, Allergan, and Mentor all make high-quality, FDA-approved products. Clinical differences in complication rates are relatively small and influenced by many factors beyond the implant itself (surgeon technique, patient anatomy, etc.). Sientra differentiates on warranty (Platinum20) and surgeon-only access, not on implant superiority claims.',
     },
     {
-      question: 'Does Sientra make saline implants?',
+      question: 'Does Sientra make <a href="/saline-breast-implants/">saline implants</a>?',
       answer: 'No, Sientra exclusively manufactures silicone gel breast implants. If you and your surgeon determine that saline implants are the best choice for you, Allergan or Mentor saline products would be the options.',
     },
   ],
