@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node generate-favicons.js && vite build && node --experimental-loader ./node-loader.js prerender.js",
+    "build": "node generate-favicons.js && vite build && node --import=./node-loader-register.js prerender.js",
     "build:only": "vite build",
-    "prerender": "node --experimental-loader ./node-loader.js prerender.js",
+    "prerender": "node --import=./node-loader-register.js prerender.js",
     "preview": "vite preview"
   },
   "devDependencies": {
