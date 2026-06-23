@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node generate-favicons.js && vite build && node --import=./node-loader-register.js prerender.js",
+    "build": "node update-sitemap.js && node generate-favicons.js && vite build && node --import=./node-loader-register.js prerender.js",
     "build:only": "vite build",
     "prerender": "node --import=./node-loader-register.js prerender.js",
     "preview": "vite preview"
