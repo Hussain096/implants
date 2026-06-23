@@ -40,7 +40,11 @@ global.IntersectionObserver = class { observe() {} disconnect() {} };
 global.MutationObserver = class { observe() {} disconnect() {} };
 global.history = global.window.history;
 global.location = global.window.location;
-global.navigator = { userAgent: 'node' };
+Object.defineProperty(global, 'navigator', {
+  value: { userAgent: 'node' },
+  writable: true,
+  configurable: true,
+});
 
 // ── Load index.html template ──
 const indexTemplate = fs.readFileSync(path.join(DIST_DIR, 'index.html'), 'utf8');
