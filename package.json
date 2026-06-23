@@ -5,14 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node generate-favicons.js && vite build && node prerender.js",
+    "build": "node generate-favicons.js && vite build && node --experimental-loader ./node-loader.js prerender.js",
     "build:only": "vite build",
-    "prerender": "node prerender.js",
+    "prerender": "node --experimental-loader ./node-loader.js prerender.js",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "puppeteer": "^24.43.1",
-    "serve": "^14.2.6",
     "sharp": "^0.35.1",
     "vite": "^6.4.3"
   }
